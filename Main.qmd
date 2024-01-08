@@ -1,0 +1,91 @@
+---
+format: pdf
+pdf-engine: xelatex
+toc: true
+toc-depth: 4
+toc-title: "Table of Contents"
+toc-location: body
+code-line-numbers: true
+number-sections: true
+mainfont: Inter
+mathfont: Fira Math
+sansfont: Inter
+keep-tex: true
+colorlinks: true
+include-in-header: 
+  text: |
+    \usepackage{amsmath, xparse}
+    \usepackage{fancyvrb, fvextra}
+    \usepackage{unicode-math}
+    \usepackage{svg}
+    \usepackage{multicol}
+    \usepackage{listings}
+    \usepackage{systeme}
+    \usepackage{xifthen}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}  
+    \lstset{basicstyle=\ttfamily\footnotesize,breaklines=true}
+    \newcommand\rowop[1]{\scriptstyle\smash{\xrightarrow[\vphantom{#1}]{\mkern-4mu#1\mkern-4mu}}}
+    \DeclareDocumentCommand\converttorows%
+    {>{\SplitList{,}}m}%
+    {\ProcessList{#1}{\converttorow}}
+    \NewDocumentCommand{\converttorow}{m}
+    {\ifthenelse{\isempty{#1}}{}{\rowop{#1}}\\}
+
+    \DeclareDocumentCommand \rowops{m}
+    {\;
+    \begin{matrix}
+    \converttorows {#1}
+    \end{matrix}
+    \; }
+
+include-before-body: 
+  text: |
+    \input{./title.tex}
+    \newpage
+---
+
+{{< pagebreak >}}
+
+# Types of Goods (01/08)
+
+## The Four Types of Goods
++--------------------+-----------------------------------------------------------+-------------------------------------------+
+|                    | **Non-rivalrous**                                         | **Rivalrous**                             |
++====================+:==========================================================+:==========================================+
+| **Non-excludable** | *Public Goods*\                                           | *Common-Pool/Common Resources*\           |
+|                    | (e.g. Sunset, Common Knowledge)                           | (e.g. Irrigation Systems, Libraries)      |
++====================+===========================================================+===========================================+
+| **Excludable**     |*(Toll/Club/Artificially Scarce) Goods/Natural monopolies*\| *Private Goods*\                          |
+|                    | (e.g. Day-Care Centers, Country Clubs)                    | (e.g. Donuts, Personal Computers)         |
++--------------------+-----------------------------------------------------------+-------------------------------------------+
+
+## Characteristics of the Four Types of Goods
+- **Rivalrous** goods are those that can only be consumed by one person at a time. 
+- **Non-rivalrous** goods are those that can be consumed by multiple people at the same time.
+- **Excludable** goods are those that can be restricted to certain people.
+- **Non-excludable** goods are those that cannot be restricted to certain people.
+- If a public good is overcrowded enough, it can become a common resource
+
+## Examples
+Case Scenario                                     | Type of Good/Service
+--------------------------------------------------|---------------------
+A college education                               | Artificially scarce
+A manicure or pedicure                            | Private good
+Stone Mountain park                               | Artificially scarce
+State park campgrounds                            | Artificially scarce
+National defense                                  | Public good
+Peach Pass lane on I-85                           | Artificially scarce
+Fish in the ocean                                 | Common resource
+Street lights                                     | Public good
+Netflix/Hulu                                      | Artificially scarce
+Flu shot                                          | Private good
+Tornado safety shelter                            | Public good
+Bottled water in a tornado safety shelter         | Common resource
+Hearing a tornado siren                           | Public good
+Going to an almost empty public beach             | Public good
+Going to an overcrowded public beach              | Common resource
+St. Lawrence SeaWay                               | Natural monopoly
+Flying on a commercial airplane                   | Natural monopoly
+Flying a single seat private airplane             | Private good
+Wedding guests eating a slice of the wedding-cake | Common resource
+Cake sold at a bakery                             | Private good
