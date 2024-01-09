@@ -48,6 +48,13 @@ include-before-body:
 
 # Types of Goods (01/08)
 
+## Characteristics of the Four Types of Goods
+- **Rivalrous** goods are those that can only be consumed by one person at a time. 
+- **Non-rivalrous** goods are those that can be consumed by multiple people at the same time.
+- **Excludable** goods are those that can be restricted to certain people.
+- **Non-excludable** goods are those that cannot be restricted to certain people.
+- If a public good is overcrowded enough, it can become a common resource
+
 ## The Four Types of Goods
 +--------------------+-----------------------------------------------------------+-------------------------------------------+
 |                    | **Non-rivalrous**                                         | **Rivalrous**                             |
@@ -58,13 +65,6 @@ include-before-body:
 | **Excludable**     |*(Toll/Club/Artificially Scarce) Goods/Natural monopolies*\| *Private Goods*\                          |
 |                    | (e.g. Day-Care Centers, Country Clubs)                    | (e.g. Donuts, Personal Computers)         |
 +--------------------+-----------------------------------------------------------+-------------------------------------------+
-
-## Characteristics of the Four Types of Goods
-- **Rivalrous** goods are those that can only be consumed by one person at a time. 
-- **Non-rivalrous** goods are those that can be consumed by multiple people at the same time.
-- **Excludable** goods are those that can be restricted to certain people.
-- **Non-excludable** goods are those that cannot be restricted to certain people.
-- If a public good is overcrowded enough, it can become a common resource
 
 ## Examples
 Case Scenario                                     | Type of Good/Service
@@ -89,3 +89,83 @@ Flying on a commercial airplane                   | Natural monopoly
 Flying a single seat private airplane             | Private good
 Wedding guests eating a slice of the wedding-cake | Common resource
 Cake sold at a bakery                             | Private good
+
+# Introduction to Externalities (01/09)
+- An **externality** is a cost/benefit that affects a *third party* who did not choose to incur that cost/benefit.
+- They are a type of **market failure** because they are *not* accounted for in the price of the good/service.
+- The DWL of positive externalities will point to the right and vice-versa for negative externalities.
+  - It also always points to the social optimum quantity.
+
+## Positive Externality in Consumption
+![Positive Externality in Consumption](img/pos-cons.png){width=50%}
+
+### Examples
+- Consumption of education
+- Consumption of health care
+- Advertisement can lead to an increase of demand in the free market $\therefore MPB$ goes up and moves the market toward $MSB$.
+
+### Spillover Effect
+- The spillover effect is $MSB = MPB+MEB$.
+- $MPB = MSB$
+- $MB > MSB$
+
+### Internalizing the Spillover Effect
+The external **benefits** can be internalized by **subsidizing** the product/service to the consumers of the good/service.
+
+{{< pagebreak >}}
+
+## Negative Externality in Consumption
+![Negative Externality in Consumption](img/neg-cons.png){width=50%}
+
+### Examples
+- Smoking in public/passive smoking
+- Pollution due to fossil fuels
+- Playing loud music
+- Discarding garbage in public places
+
+### Spillover Effect
+- The spillover effect is $MSB = MPB-MEB$.
+- $MPB = MSB$
+- $MB < MSB$
+
+### Internalizing the Spillover Effect
+The external **costs** can be internalized by **imposing a tax** on the product/service to the consumers of the good/service.
+
+{{< pagebreak >}}
+
+## Positive Externality in Production
+![Positive Externality in Production](img/pos-prod.png){width=50%}
+
+### Examples 
+- Companies invest in training/professional development of their employees.
+- Firms invest in research and development (R&D).
+
+### Spillover Effect
+- The spillover effect is $MSC = MPC-MEC$.
+- $MPB = MSC$
+- $MC > MSC$
+
+### Internalizing the Spillover Effect
+The external **benefits** can be internalized by **subsidizing** the product/service to the producers of the good/service.
+
+{{< pagebreak >}}
+
+## Negative Externality in Production
+![Negative Externality in Production](img/neg-prod.png){width=50%}
+
+### Examples
+- Firms produce chemicals that cause pollution $therefore$ local fisherman cannot catch fish.
+- Construction of roads lead to change of landscape and parks
+- Coal fired power plants
+
+### Spillover Effect
+- The spillover effect is $MSC = MPC+MEC$.
+- $MPB = MSC$
+- $MC < MSC$
+
+
+### Internalizing the Spillover Effect
+- The external **costs** can be internalized by **imposing a tax** on the product/service to the producers of the good/service.
+- The government intervention will move the private market to **social optimum** where $MSB = MSC$.
+
+{{< pagebreak >}}
