@@ -90,11 +90,35 @@ Flying a single seat private airplane             | Private good
 Wedding guests eating a slice of the wedding-cake | Common resource
 Cake sold at a bakery                             | Private good
 
-# Introduction to Externalities (01/09)
+{{< pagebreak >}}
+
+# Introduction to Externalities (01/09-01/10)
+
+## Overview
 - An **externality** is a cost/benefit that affects a *third party* who did not choose to incur that cost/benefit.
 - They are a type of **market failure** because they are *not* accounted for in the price of the good/service.
-- The DWL of positive externalities will point to the right and vice-versa for negative externalities.
-  - It also always points to the social optimum quantity.
+- The deadweight loss (DWL) of positive externalities will point to the right and vice-versa for negative externalities.
+  - Which means the DWL triangle always points to the social optimum quantity.
+
+## Internalizing an Externality (aka *how to fix an externality*)
+
+### Problems with externalities
+1) Private individuals won't take into account the external costs/benefits
+2) Public goods and common pool resources tend to lack property rights
+
+### Coase Theorem (the fix!)
+"We can fix externalities without the government if we..."
+
+1) Give property rights to people
+2) Minimize transaction costs
+
+### Examples
+Methods the government can employ to internalize an externality in a free market:
+
+- Pollution or emission limits
+- "Pollution credits" for private firms to buy and sell in the market
+
+{{< pagebreak >}}
 
 ## Positive Externality in Consumption
 ![Positive Externality in Consumption](img/pos-cons.png){width=50%}
@@ -105,17 +129,18 @@ Cake sold at a bakery                             | Private good
 - Advertisement can lead to an increase of demand in the free market $\therefore MPB$ goes up and moves the market toward $MSB$.
 
 ### Spillover Effect
-- The spillover effect is $MSB = MPB+MEB$.
-- $MPB = MSB$
-- $MB > MSB$
+- The spillover effect is $MEB = MSB-MPB$.
+- $MPB < MSB$
+- $MPC = MSC$
 
 ### Internalizing the Spillover Effect
-The external **benefits** can be internalized by **subsidizing** the product/service to the consumers of the good/service.
+- The external **benefits** can be internalized by **subsidizing** the product/service to the consumers of the good/service.
+- The government intervention will move the private market to **social optimum** where $MSB = MSC$.
 
 {{< pagebreak >}}
 
 ## Negative Externality in Consumption
-![Negative Externality in Consumption](img/neg-cons.png){width=50%}
+![Negative Externality in Consumption](img/neg-cons.png){width=45%}
 
 ### Examples
 - Smoking in public/passive smoking
@@ -124,12 +149,13 @@ The external **benefits** can be internalized by **subsidizing** the product/ser
 - Discarding garbage in public places
 
 ### Spillover Effect
-- The spillover effect is $MSB = MPB-MEB$.
-- $MPB = MSB$
-- $MB < MSB$
+- The spillover effect is $MEB = MSB-MPB$.
+- $MPB > MSB$
+- $MPC = MSC$
 
 ### Internalizing the Spillover Effect
-The external **costs** can be internalized by **imposing a tax** on the product/service to the consumers of the good/service.
+- The external **benefits** can be internalized by **imposing a tax** on the product/service to the consumers of the good/service.
+- The government intervention will move the private market to **social optimum** where $MSB = MSC$.
 
 {{< pagebreak >}}
 
@@ -141,12 +167,13 @@ The external **costs** can be internalized by **imposing a tax** on the product/
 - Firms invest in research and development (R&D).
 
 ### Spillover Effect
-- The spillover effect is $MSC = MPC-MEC$.
-- $MPB = MSC$
-- $MC > MSC$
+- The spillover effect is $MEC = MSC-MPC$.
+- $MPB = MSB$
+- $MPC > MSC$
 
 ### Internalizing the Spillover Effect
-The external **benefits** can be internalized by **subsidizing** the product/service to the producers of the good/service.
+- The external **costs** can be internalized by **subsidizing** the product/service to the producers of the good/service.
+- The government intervention will move the private market to **social optimum** where $MSB = MSC$.
 
 {{< pagebreak >}}
 
@@ -159,9 +186,9 @@ The external **benefits** can be internalized by **subsidizing** the product/ser
 - Coal fired power plants
 
 ### Spillover Effect
-- The spillover effect is $MSC = MPC+MEC$.
-- $MPB = MSC$
-- $MC < MSC$
+- The spillover effect is $MEC = MSC-MPC$.
+- $MPB = MSB$
+- $MPC < MSC$
 
 
 ### Internalizing the Spillover Effect

@@ -179,7 +179,7 @@
 \input{./title.tex}
 \newpage
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, interior hidden, boxrule=0pt, borderline west={3pt}{0pt}{shadecolor}, frame hidden, breakable, sharp corners]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, breakable, frame hidden, interior hidden, borderline west={3pt}{0pt}{shadecolor}, sharp corners, enhanced]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of Contents}
 {
@@ -287,9 +287,14 @@ Wedding guests eating a slice of the wedding-cake & Common resource \\
 Cake sold at a bakery & Private good \\
 \end{longtable}
 
-\hypertarget{introduction-to-externalities-0109}{%
+\newpage{}
+
+\hypertarget{introduction-to-externalities-0109-0110}{%
 \section{Introduction to Externalities
-(01/09)}\label{introduction-to-externalities-0109}}
+(01/09-01/10)}\label{introduction-to-externalities-0109-0110}}
+
+\hypertarget{overview}{%
+\subsection{Overview}\label{overview}}
 
 \begin{itemize}
 \tightlist
@@ -300,15 +305,65 @@ Cake sold at a bakery & Private good \\
   They are a type of \textbf{market failure} because they are \emph{not}
   accounted for in the price of the good/service.
 \item
-  The DWL of positive externalities will point to the right and
-  vice-versa for negative externalities.
+  The deadweight loss (DWL) of positive externalities will point to the
+  right and vice-versa for negative externalities.
 
   \begin{itemize}
   \tightlist
   \item
-    It also always points to the social optimum quantity.
+    Which means the DWL triangle always points to the social optimum
+    quantity.
   \end{itemize}
 \end{itemize}
+
+\hypertarget{internalizing-an-externality-aka-how-to-fix-an-externality}{%
+\subsection{\texorpdfstring{Internalizing an Externality (aka \emph{how
+to fix an
+externality})}{Internalizing an Externality (aka how to fix an externality)}}\label{internalizing-an-externality-aka-how-to-fix-an-externality}}
+
+\hypertarget{problems-with-externalities}{%
+\subsubsection{Problems with
+externalities}\label{problems-with-externalities}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  Private individuals won't take into account the external
+  costs/benefits
+\item
+  Public goods and common pool resources tend to lack property rights
+\end{enumerate}
+
+\hypertarget{coase-theorem-the-fix}{%
+\subsubsection{Coase Theorem (the fix!)}\label{coase-theorem-the-fix}}
+
+``We can fix externalities without the government if we\ldots{}''
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  Give property rights to people
+\item
+  Minimize transaction costs
+\end{enumerate}
+
+\hypertarget{examples-1}{%
+\subsubsection{Examples}\label{examples-1}}
+
+Methods the government can employ to internalize an externality in a
+free market:
+
+\begin{itemize}
+\tightlist
+\item
+  Pollution or emission limits
+\item
+  ``Pollution credits'' for private firms to buy and sell in the market
+\end{itemize}
+
+\newpage{}
 
 \hypertarget{positive-externality-in-consumption}{%
 \subsection{Positive Externality in
@@ -324,8 +379,8 @@ Consumption}\label{positive-externality-in-consumption}}
 
 \end{figure}
 
-\hypertarget{examples-1}{%
-\subsubsection{Examples}\label{examples-1}}
+\hypertarget{examples-2}{%
+\subsubsection{Examples}\label{examples-2}}
 
 \begin{itemize}
 \tightlist
@@ -344,20 +399,27 @@ Consumption}\label{positive-externality-in-consumption}}
 \begin{itemize}
 \tightlist
 \item
-  The spillover effect is \(MSB = MPB+MEB\).
+  The spillover effect is \(MEB = MSB-MPB\).
 \item
-  \(MPB = MSB\)
+  \(MPB < MSB\)
 \item
-  \(MB > MSB\)
+  \(MPC = MSC\)
 \end{itemize}
 
 \hypertarget{internalizing-the-spillover-effect}{%
 \subsubsection{Internalizing the Spillover
 Effect}\label{internalizing-the-spillover-effect}}
 
-The external \textbf{benefits} can be internalized by
-\textbf{subsidizing} the product/service to the consumers of the
-good/service.
+\begin{itemize}
+\tightlist
+\item
+  The external \textbf{benefits} can be internalized by
+  \textbf{subsidizing} the product/service to the consumers of the
+  good/service.
+\item
+  The government intervention will move the private market to
+  \textbf{social optimum} where \(MSB = MSC\).
+\end{itemize}
 
 \newpage{}
 
@@ -367,7 +429,7 @@ Consumption}\label{negative-externality-in-consumption}}
 
 \begin{figure}
 
-{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{img/neg-cons.png}
+{\centering \includegraphics[width=0.45\textwidth,height=\textheight]{img/neg-cons.png}
 
 }
 
@@ -375,8 +437,8 @@ Consumption}\label{negative-externality-in-consumption}}
 
 \end{figure}
 
-\hypertarget{examples-2}{%
-\subsubsection{Examples}\label{examples-2}}
+\hypertarget{examples-3}{%
+\subsubsection{Examples}\label{examples-3}}
 
 \begin{itemize}
 \tightlist
@@ -396,19 +458,26 @@ Consumption}\label{negative-externality-in-consumption}}
 \begin{itemize}
 \tightlist
 \item
-  The spillover effect is \(MSB = MPB-MEB\).
+  The spillover effect is \(MEB = MSB-MPB\).
 \item
-  \(MPB = MSB\)
+  \(MPB > MSB\)
 \item
-  \(MB < MSB\)
+  \(MPC = MSC\)
 \end{itemize}
 
 \hypertarget{internalizing-the-spillover-effect-1}{%
 \subsubsection{Internalizing the Spillover
 Effect}\label{internalizing-the-spillover-effect-1}}
 
-The external \textbf{costs} can be internalized by \textbf{imposing a
-tax} on the product/service to the consumers of the good/service.
+\begin{itemize}
+\tightlist
+\item
+  The external \textbf{benefits} can be internalized by \textbf{imposing
+  a tax} on the product/service to the consumers of the good/service.
+\item
+  The government intervention will move the private market to
+  \textbf{social optimum} where \(MSB = MSC\).
+\end{itemize}
 
 \newpage{}
 
@@ -426,8 +495,8 @@ Production}\label{positive-externality-in-production}}
 
 \end{figure}
 
-\hypertarget{examples-3}{%
-\subsubsection{Examples}\label{examples-3}}
+\hypertarget{examples-4}{%
+\subsubsection{Examples}\label{examples-4}}
 
 \begin{itemize}
 \tightlist
@@ -444,20 +513,27 @@ Production}\label{positive-externality-in-production}}
 \begin{itemize}
 \tightlist
 \item
-  The spillover effect is \(MSC = MPC-MEC\).
+  The spillover effect is \(MEC = MSC-MPC\).
 \item
-  \(MPB = MSC\)
+  \(MPB = MSB\)
 \item
-  \(MC > MSC\)
+  \(MPC > MSC\)
 \end{itemize}
 
 \hypertarget{internalizing-the-spillover-effect-2}{%
 \subsubsection{Internalizing the Spillover
 Effect}\label{internalizing-the-spillover-effect-2}}
 
-The external \textbf{benefits} can be internalized by
-\textbf{subsidizing} the product/service to the producers of the
-good/service.
+\begin{itemize}
+\tightlist
+\item
+  The external \textbf{costs} can be internalized by
+  \textbf{subsidizing} the product/service to the producers of the
+  good/service.
+\item
+  The government intervention will move the private market to
+  \textbf{social optimum} where \(MSB = MSC\).
+\end{itemize}
 
 \newpage{}
 
@@ -475,8 +551,8 @@ Production}\label{negative-externality-in-production}}
 
 \end{figure}
 
-\hypertarget{examples-4}{%
-\subsubsection{Examples}\label{examples-4}}
+\hypertarget{examples-5}{%
+\subsubsection{Examples}\label{examples-5}}
 
 \begin{itemize}
 \tightlist
@@ -495,11 +571,11 @@ Production}\label{negative-externality-in-production}}
 \begin{itemize}
 \tightlist
 \item
-  The spillover effect is \(MSC = MPC+MEC\).
+  The spillover effect is \(MEC = MSC-MPC\).
 \item
-  \(MPB = MSC\)
+  \(MPB = MSB\)
 \item
-  \(MC < MSC\)
+  \(MPC < MSC\)
 \end{itemize}
 
 \hypertarget{internalizing-the-spillover-effect-3}{%
