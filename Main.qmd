@@ -154,7 +154,7 @@ The external **benefits** can be internalized by **subsidizing** the product/ser
 ![Negative Externality in Production](img/neg-prod.png){width=50%}
 
 ### Examples
-- Firms produce chemicals that cause pollution $therefore$ local fisherman cannot catch fish.
+- Firms produce chemicals that cause pollution $\therefore$ local fisherman cannot catch fish.
 - Construction of roads lead to change of landscape and parks
 - Coal fired power plants
 
