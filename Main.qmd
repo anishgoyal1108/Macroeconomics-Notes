@@ -196,3 +196,69 @@ Methods the government can employ to internalize an externality in a free market
 - The government intervention will move the private market to **social optimum** where $MSB = MSC$.
 
 {{< pagebreak >}}
+
+# Income Inequality (01/12)
+
+## The Lorenz Curve and Gini Coefficient
+- The **Lorenz Curve** $L(x)$ is a graphical representation of the distribution of income in a country.
+  - The x-axis is the cumulative percentage of the population (0%-100%).
+  - The y-axis is the cumulative percentage of income (0%-100%).
+  - It is always accompanied by the line $y=x$ which represents perfect equality.
+- The **Gini Coefficient** $G$ is a numerical representation of the Lorenz Curve.
+  - It is the ratio of the area between the Lorenz Curve and the line $y=x$ to the area under the line $y=x$.
+    - $G = \frac{A}{A+B}$ where $A = \int_{0}^{1} \left[x-L(x)\right] \ \mathrm{d}x$ and $B = \int_{0}^{1}L(x) \ \mathrm{d}x$.
+  - The closer $G$ is to 1, the more unequal the distribution of income is.
+
+![Visual depiction of the Lorenz Curve](img/lorenz.png){width=68%}
+
+As demonstrated in *Figure 6* below:
+
+- If $G$ is 0, then the Lorenz Curve is **also** the line $y=x$ because the area between both curves $A$ is 0.
+- If $G$ is 1, then the Lorenz Curve is the x-axis ($y=0$) because $A+B$ must also equal the area under $y=x$, or $\frac{1}{2}$.
+
+![Varying Gini Coefficients and their corresponding Lorenz Curves](img/varying-gini.png){width=100%}
+
+## Deriving Simpler Expressions for the Gini Coefficient
+Since we know that $A+B = \int_{0}^{1} x \ \mathrm{d}x = \left.\frac{x^2}{2}\right\vert_{0}^{1} = \frac{1}{2}$, we can derive "easier" expressions to calculate the Gini Coefficient $G$.
+
+### Deriving $G=2A$
+```{=latex}
+\begin{align}
+G &= \frac{A}{A+B}\tag{Initial Gini Coefficient formula} \\
+\frac{1}{G} &= \frac{A+B}{A}\tag{Reciprocate} \\
+\frac{A}{G} &= A+B\tag{Multiply by $A$} \\
+\frac{A}{G}-A &= B\tag{Subtract $A$}
+\end{align}
+```
+{{< pagebreak >}}
+
+Now we can substitute $B$ into the original area formula:
+```{=latex}
+\begin{align}
+A + B &= \frac{1}{2}\tag{Area under $y=x$} \\
+A+\left(\frac{A}{G}-A\right) &= \frac{1}{2}\tag{Substitute $B$} \\
+\frac{A}{G} &= \frac{1}{2}\tag{Simplify} \\
+\cfrac{A}{\frac{1}{2}} &= G\tag{Simplify} \\
+2A &= G\tag{Multiply by 2}
+\end{align}
+```
+
+### Deriving $G=1-2B$
+Since we've already expressed $B$ in terms of $A$, we just need to get $A$ in terms of $B$.
+```{=latex}
+\begin{align}
+G = 2A \tag{Previous derivation} \\
+\frac{G}{2} = A \tag{Divide by 2} \\
+\frac{G}{2} = \frac{1}{2}-B\tag{Substitute $A$ using the expression $A=\frac{1}{2}-B$} \\
+G = 1-2B\tag{Multiply by 2}
+\end{align}
+```
+Therefore, two **alternate expressions** for the Gini Coefficient are:
+```{=latex}
+\begin{align}
+G &= 2A \\
+G &= 1-2B
+\end{align}
+```
+
+{{< pagebreak >}}

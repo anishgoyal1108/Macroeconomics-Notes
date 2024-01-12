@@ -179,7 +179,7 @@
 \input{./title.tex}
 \newpage
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, breakable, frame hidden, interior hidden, borderline west={3pt}{0pt}{shadecolor}, sharp corners, enhanced]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, boxrule=0pt, interior hidden, borderline west={3pt}{0pt}{shadecolor}, breakable, sharp corners, frame hidden]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of Contents}
 {
@@ -591,6 +591,142 @@ Effect}\label{internalizing-the-spillover-effect-3}}
   The government intervention will move the private market to
   \textbf{social optimum} where \(MSB = MSC\).
 \end{itemize}
+
+\newpage{}
+
+\hypertarget{income-inequality-0112}{%
+\section{Income Inequality (01/12)}\label{income-inequality-0112}}
+
+\hypertarget{the-lorenz-curve-and-gini-coefficient}{%
+\subsection{The Lorenz Curve and Gini
+Coefficient}\label{the-lorenz-curve-and-gini-coefficient}}
+
+\begin{itemize}
+\tightlist
+\item
+  The \textbf{Lorenz Curve} \(L(x)\) is a graphical representation of
+  the distribution of income in a country.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The x-axis is the cumulative percentage of the population
+    (0\%-100\%).
+  \item
+    The y-axis is the cumulative percentage of income (0\%-100\%).
+  \item
+    It is always accompanied by the line \(y=x\) which represents
+    perfect equality.
+  \end{itemize}
+\item
+  The \textbf{Gini Coefficient} \(G\) is a numerical representation of
+  the Lorenz Curve.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    It is the ratio of the area between the Lorenz Curve and the line
+    \(y=x\) to the area under the line \(y=x\).
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \(G = \frac{A}{A+B}\) where
+      \(A = \int_{0}^{1} \left[x-L(x)\right] \ \mathrm{d}x\) and
+      \(B = \int_{0}^{1}L(x) \ \mathrm{d}x\).
+    \end{itemize}
+  \item
+    The closer \(G\) is to 1, the more unequal the distribution of
+    income is.
+  \end{itemize}
+\end{itemize}
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.68\textwidth,height=\textheight]{img/lorenz.png}
+
+}
+
+\caption{Visual depiction of the Lorenz Curve}
+
+\end{figure}
+
+As demonstrated in \emph{Figure 6} below:
+
+\begin{itemize}
+\tightlist
+\item
+  If \(G\) is 0, then the Lorenz Curve is \textbf{also} the line \(y=x\)
+  because the area between both curves \(A\) is 0.
+\item
+  If \(G\) is 1, then the Lorenz Curve is the x-axis (\(y=0\)) because
+  \(A+B\) must also equal the area under \(y=x\), or \(\frac{1}{2}\).
+\end{itemize}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\textwidth,height=\textheight]{img/varying-gini.png}
+
+}
+
+\caption{Varying Gini Coefficients and their corresponding Lorenz
+Curves}
+
+\end{figure}
+
+\hypertarget{deriving-simpler-expressions-for-the-gini-coefficient}{%
+\subsection{Deriving Simpler Expressions for the Gini
+Coefficient}\label{deriving-simpler-expressions-for-the-gini-coefficient}}
+
+Since we know that
+\(A+B = \int_{0}^{1} x \ \mathrm{d}x = \left.\frac{x^2}{2}\right\vert_{0}^{1} = \frac{1}{2}\),
+we can derive ``easier'' expressions to calculate the Gini Coefficient
+\(G\).
+
+\hypertarget{deriving-g2a}{%
+\subsubsection{\texorpdfstring{Deriving
+\(G=2A\)}{Deriving G=2A}}\label{deriving-g2a}}
+
+\begin{align}
+G &= \frac{A}{A+B}\tag{Initial Gini Coefficient formula} \\
+\frac{1}{G} &= \frac{A+B}{A}\tag{Reciprocate} \\
+\frac{A}{G} &= A+B\tag{Multiply by $A$} \\
+\frac{A}{G}-A &= B\tag{Subtract $A$}
+\end{align}
+
+\newpage{}
+
+Now we can substitute \(B\) into the original area formula:
+
+\begin{align}
+A + B &= \frac{1}{2}\tag{Area under $y=x$} \\
+A+\left(\frac{A}{G}-A\right) &= \frac{1}{2}\tag{Substitute $B$} \\
+\frac{A}{G} &= \frac{1}{2}\tag{Simplify} \\
+\cfrac{A}{\frac{1}{2}} &= G\tag{Simplify} \\
+2A &= G\tag{Multiply by 2}
+\end{align}
+
+\hypertarget{deriving-g1-2b}{%
+\subsubsection{\texorpdfstring{Deriving
+\(G=1-2B\)}{Deriving G=1-2B}}\label{deriving-g1-2b}}
+
+Since we've already expressed \(B\) in terms of \(A\), we just need to
+get \(A\) in terms of \(B\).
+
+\begin{align}
+G = 2A \tag{Previous derivation} \\
+\frac{G}{2} = A \tag{Divide by 2} \\
+\frac{G}{2} = \frac{1}{2}-B\tag{Substitute $A$ using the expression $A=\frac{1}{2}-B$} \\
+G = 1-2B\tag{Multiply by 2}
+\end{align}
+
+Therefore, two \textbf{alternate expressions} for the Gini Coefficient
+are:
+
+\begin{align}
+G &= 2A \\
+G &= 1-2B
+\end{align}
 
 \newpage{}
 
