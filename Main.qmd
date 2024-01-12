@@ -203,7 +203,7 @@ Methods the government can employ to internalize an externality in a free market
 - The **Lorenz Curve** $L(x)$ is a graphical representation of the distribution of income in a country.
   - The x-axis is the cumulative percentage of the population (0%-100%).
   - The y-axis is the cumulative percentage of income (0%-100%).
-  - It is always accompanied by the line $y=x$ which represents perfect equality.
+  - It is always accompanied by the line $y=x$ which represents **perfect equality**.
 - The **Gini Coefficient** $G$ is a numerical representation of the Lorenz Curve.
   - It is the ratio of the area between the Lorenz Curve and the line $y=x$ to the area under the line $y=x$.
     - $G = \frac{A}{A+B}$ where $A = \int_{0}^{1} \left[x-L(x)\right] \ \mathrm{d}x$ and $B = \int_{0}^{1}L(x) \ \mathrm{d}x$.
