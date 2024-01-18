@@ -56,19 +56,19 @@ include-before-body:
 - If a public good is overcrowded enough, it can become a common resource
 
 ## The Four Types of Goods
-+--------------------+-----------------------------------------------------------+-------------------------------------------+
-|                    | **Non-rivalrous**                                         | **Rivalrous**                             |
++-----+-------------------+---------------+
+|     | **Non-rivalrous** | **Rivalrous** |
 +====================+:==========================================================+:==========================================+
-| **Non-excludable** | *Public Goods*\                                           | *Common-Pool/Common Resources*\           |
-|                    | (e.g. Sunset, Common Knowledge)                           | (e.g. Irrigation Systems, Libraries)      |
-+====================+===========================================================+===========================================+
-| **Excludable**     |*(Toll/Club/Artificially Scarce) Goods/Natural monopolies*\| *Private Goods*\                          |
-|                    | (e.g. Day-Care Centers, Country Clubs)                    | (e.g. Donuts, Personal Computers)         |
-+--------------------+-----------------------------------------------------------+-------------------------------------------+
+| **Non-excludable** |                       *Public Goods*\                       |   *Common-Pool/Common Resources*\    |
+|                    |               (e.g. Sunset, Common Knowledge)               | (e.g. Irrigation Systems, Libraries) |
++====================+=============================================================+======================================+
+| **Excludable**     | *(Toll/Club/Artificially Scarce) Goods/Natural monopolies*\ | *Private Goods*\                     |
+|                    | (e.g. Day-Care Centers, Country Clubs)                      | (e.g. Donuts, Personal Computers)    |
++--------------------+-------------------------------------------------------------+--------------------------------------+
 
 ## Examples
-Case Scenario                                     | Type of Good/Service
---------------------------------------------------|---------------------
+                  Case Scenario                   | Type of Good/Service
+------------------------------------------------- | --------------------
 A college education                               | Artificially scarce
 A manicure or pedicure                            | Private good
 Stone Mountain park                               | Artificially scarce
@@ -262,3 +262,19 @@ G &= 1-2B
 ```
 
 {{< pagebreak >}}
+
+## Negative Externalities: Public vs. Private Resolution and More on the Coase Theorem (01/16)
+
+### Conditions
+Recall that the **Coase Theorem** states market failures will always be resolved by the free market. Here are all the conditions for Coase Theorem to hold true:
+
+- Both sides are rational and willing to negotiate tomaximize their own utility.
+- Low to no transaction cost
+- Private property rights are well defined
+- Perfect information is available to both sides and they have the same leverage
+
+### Miscellaneous Market Failures
+- **Monopoly**: A single firm controls the entire market.
+  - This will cause the firm to produce *less* than the social optimum at a *greater price*.
+- **Monopsony**: A single firm controls the entire labor market.
+  - This will cause the firm to hire *less* than optimum and for a *lower wage*.
