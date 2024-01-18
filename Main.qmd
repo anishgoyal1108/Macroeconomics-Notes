@@ -56,9 +56,9 @@ include-before-body:
 - If a public good is overcrowded enough, it can become a common resource
 
 ## The Four Types of Goods
-+-----+-------------------+---------------+
-|     | **Non-rivalrous** | **Rivalrous** |
-+====================+:==========================================================+:==========================================+
++--------------------+-------------------------------------------------------------+--------------------------------------+
+|                    | **Non-rivalrous**                                           | **Rivalrous**                        |
++====================+:============================================================+:=====================================+
 | **Non-excludable** |                       *Public Goods*\                       |   *Common-Pool/Common Resources*\    |
 |                    |               (e.g. Sunset, Common Knowledge)               | (e.g. Irrigation Systems, Libraries) |
 +====================+=============================================================+======================================+
@@ -268,13 +268,15 @@ G &= 1-2B
 ### Conditions
 Recall that the **Coase Theorem** states market failures will always be resolved by the free market. Here are all the conditions for Coase Theorem to hold true:
 
-- Both sides are rational and willing to negotiate tomaximize their own utility.
-- Low to no transaction cost
-- Private property rights are well defined
+- Both sides are rational and willing to negotiate to maximize their own utility.
+- Low to no transaction costs
+- Private property rights are well-defined
 - Perfect information is available to both sides and they have the same leverage
 
 ### Miscellaneous Market Failures
+There are a couple of other market failures that the government should try to combat, based on the types of markets we learned about *in previous units*:
+
 - **Monopoly**: A single firm controls the entire market.
-  - This will cause the firm to produce *less* than the social optimum at a *greater price*.
+  - This will cause the firm to produce *less* than the social optimum and still charge a *greater price*.
 - **Monopsony**: A single firm controls the entire labor market.
   - This will cause the firm to hire *less* than optimum and for a *lower wage*.

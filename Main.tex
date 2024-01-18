@@ -58,7 +58,6 @@
 
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
-\usepackage{multirow}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -180,7 +179,7 @@
 \input{./title.tex}
 \newpage
 
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, enhanced, borderline west={3pt}{0pt}{shadecolor}, interior hidden, sharp corners, breakable, boxrule=0pt]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, frame hidden, interior hidden, enhanced, boxrule=0pt, breakable, sharp corners]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of Contents}
 {
@@ -220,23 +219,36 @@ Goods}\label{characteristics-of-the-four-types-of-goods}}
 \subsection{The Four Types of Goods}\label{the-four-types-of-goods}}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.1680}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.8320}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1707}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.5041}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3171}}@{}}
 \toprule\noalign{}
-\multicolumn{2}{@{}>{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{1.0000} + 2\tabcolsep}@{}}{%
 \begin{minipage}[b]{\linewidth}\raggedright
-\begin{verbatim}
-| **Non-rivalrous** | **Rivalrous** |
-\end{verbatim}
-\end{minipage}} \\
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Non-rivalrous}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Rivalrous}
+\end{minipage} \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-\multirow{2}{*}{\textbf{Non-excludable}
-
-==================== \textbf{Excludable}} & \\
-& \\
+\textbf{Non-excludable} & \begin{minipage}[t]{\linewidth}\raggedright
+\begin{verbatim}
+                  *Public Goods*\
+          (e.g. Sunset, Common Knowledge)
+\end{verbatim}
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+\emph{Common-Pool/Common Resources}\\
+(e.g.~Irrigation Systems, Libraries)\strut
+\end{minipage} \\
+\textbf{Excludable} & \begin{minipage}[t]{\linewidth}\raggedright
+\emph{(Toll/Club/Artificially Scarce) Goods/Natural monopolies}\\
+(e.g.~Day-Care Centers, Country Clubs)\strut
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
+\emph{Private Goods}\\
+(e.g.~Donuts, Personal Computers)\strut
+\end{minipage} \\
 \end{longtable}
 
 \hypertarget{examples}{%
@@ -712,58 +724,56 @@ G &= 1-2B
 More on the Coase Theorem
 (01/16)}\label{negative-externalities-public-vs.-private-resolution-and-more-on-the-coase-theorem-0116}}
 
-For each of the following case scenarios, indicate how plausible it is
-for the stakeholders to mitigate the effects of a negative externality
-through private negotiation.
-
 \hypertarget{conditions}{%
 \subsubsection{Conditions}\label{conditions}}
+
+Recall that the \textbf{Coase Theorem} states market failures will
+always be resolved by the free market. Here are all the conditions for
+Coase Theorem to hold true:
 
 \begin{itemize}
 \tightlist
 \item
-  Both sides are rational and willing to negotiate tomaximize their own
+  Both sides are rational and willing to negotiate to maximize their own
   utility.
 \item
-  Low to no transaction cost
+  Low to no transaction costs
 \item
-  Private property rights are well defined
+  Private property rights are well-defined
 \item
   Perfect information is available to both sides and they have the same
   leverage
 \end{itemize}
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0044}}@{}}
-\toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
-\textbf{Scenario} \textbar{} \textbf{Private resolution is} ~\textbar{}
-\textbf{Private resolution seems} ~\textbar{} \textbf{Private resolution
-is very} ~\textbar{} \textbar{} \textbf{very unlikely} \textbar{}
-\textbf{possible} \textbar{} \textbf{likely} \textbar{}
-====================+:==========================================================+:==========================================+
-\textbf{Non-excludable} \textbar{} \emph{Public Goods}~ \textbar{}
-\emph{Common-Pool/Common Resources}~ \textbar{} \textbar{} (e.g.~Sunset,
-Common Knowledge) \textbar{} (e.g.~Irrigation Systems, Libraries)
-\textbar{}
-====================+=============================================================+======================================+
-\textbf{Excludable} \textbar{} \emph{(Toll/Club/Artificially Scarce)
-Goods/Natural monopolies}~\textbar{} \emph{Private Goods}~ \textbar{}
-\textbar{} (e.g.~Day-Care Centers, Country Clubs) \textbar{}
-(e.g.~Donuts, Personal Computers) \textbar{}
-\end{minipage} \\
-\begin{minipage}[b]{\linewidth}\raggedright
-====================+:==========================================================+:==========================================+
-\textbf{Non-excludable} \textbar{} \emph{Public Goods}~ \textbar{}
-\emph{Common-Pool/Common Resources}\\
-\textbar{} (e.g.~Sunset, Common Knowledge) \textbar{} (e.g.~Irrigation
-Systems, Libraries)\strut
-\end{minipage} \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-\end{longtable}
+\hypertarget{miscellaneous-market-failures}{%
+\subsubsection{Miscellaneous Market
+Failures}\label{miscellaneous-market-failures}}
+
+There are a couple of other market failures that the government should
+try to combat, based on the types of markets we learned about \emph{in
+previous units}:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Monopoly}: A single firm controls the entire market.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This will cause the firm to produce \emph{less} than the social
+    optimum and still charge a \emph{greater price}.
+  \end{itemize}
+\item
+  \textbf{Monopsony}: A single firm controls the entire labor market.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    This will cause the firm to hire \emph{less} than optimum and for a
+    \emph{lower wage}.
+  \end{itemize}
+\end{itemize}
 
 
 
