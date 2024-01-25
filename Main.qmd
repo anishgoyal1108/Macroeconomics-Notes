@@ -280,3 +280,335 @@ There are a couple of other market failures that the government should try to co
   - This will cause the firm to produce *less* than the social optimum and still charge a *greater price*.
 - **Monopsony**: A single firm controls the entire labor market.
   - This will cause the firm to hire *less* than optimum and for a *lower wage*.
+
+# Intro to Macronomic Indicators (01/22-01/23)
+
+GDP stands for Gross Domestic Product. These three words are important to understand:
+
+- Gross: Not just profits - *total* value
+- Domestic: Made WITHIN the borders of the US 
+- Products: Goods and services which have been produced 
+
+Formal definition of GDP: \ 
+**GDP** is: the sum of the market value of all final goods and services produced within the United States in a given time period (usually a year).
+
+{{< pagebreak >}}
+
+|   Concept    |                         Is                          |                   Is NOT                   |
+| ------------ | --------------------------------------------------- | ------------------------------------------ |
+| Sum          | TOTAL                                               | Single industry or market                  |
+| Value        | Based on the market price of the goods and services | subjective                                 |
+| Final        | new and complete goods and services; ready for use  | intermediate goods/services; used goods    |
+| G&S          | ONLY a good or service                              | FINANCIAL ASSETS (Stock/Bonds/ETFs/Crypto) |
+| Produced     | MADE                                                | transfer payments or foreign aid           |
+| Domestically | WITHIN US borders                                   | US citizens abroad                         |
+| Time         | This year (NEW production)                          | OLD G&S, Goodwill                          |
+
+## Calculating GDP
+GDP is known as tam easure of *national income accounting*. What are the two accounting techniques used in measuring GDP?
+
+- **Expenditure Approach**: Measures GDP by adding up all the spending on final goods and services produced in the nation during the year.
+  - $GDP = C + I + G + (X-M)$; C=Consumption, I=Investment, G=Government Spending, X=Exports, M=Imports
+- **Income Approach**: Measures GDP by adding up all the income earned by the factors of production (land, labor, capital, entrepreneurship) during the year.
+  - $GDP = W + I + R + P$; W=Wages, I=Interest, R=Rents, P=Profits
+- Therefore, $GDP = C + I + G + (X-M) = W + I + R + P$
+
+{{< pagebreak >}}
+
+## Circular Flow Model and Leakages
+![Circular Flow Model](img/circular-flow.png){width=75%}
+
+- **Leakages** are the non-consumption uses of income, such as savings, taxes, and imports.
+- Your piggy bank and transfer payments are leakages.
+
+## Gross National Product
+- **GNP** is the sum of the value of all final goods and services prodced by Americans anywhere in the world during a time period.
+
+## Examples of Factors that Affect GDP
+### Which of these is Counted in GDP?
+- A monthly check received by an economics student who has been granted a government scholarship.
+- A farmer's purchase of a new tractor $\checkmark$
+- A plumber's purchase of a two-year-old used truck $\times$
+- Cashing a U.S. government bond $\times$
+- The services of a mechanic in fixing the radiator in his own car
+- A Social Security check from the government to a retired store clerk
+- An increase in business inventories $\checkmark$
+- The government's purchase of a new submarine for the Navy $\checkmark$
+- A barber's income from cutting hair $\checkmark$
+- Income received from the sale of Nike Stock $\times$
+
+### Which of these is counted in GDP and part of consumption?
+- You Spend $7 at the movies $\checkmark$
+- A family pays a contractor $200k for a house he built them this year $\times$
+- A family pays $75k for a house built three years ago $\times$
+- An accountant pays a tailor $175 to sew a suit for her $\checkmark$
+- The government increases its defense expenditures by $1 billion $\times$
+- The government makes a $300 Social Security payment to a retired person $\times$
+- You buy General Motors Corp. stock for $1k in the stock market $\times$
+- At the end of the year, a flour-milling firm finds that its inventories of grain and flour are $10k above the amounts of its inventories at the beginning of the year $\times$
+- A homemaker works hard caring for her spouse and two children $\times$
+- Ford Motor Co. buys new auto-making robots $\times$
+- You pay \$300 a month to rent an apartment $\checkmark$
+- Apple Computers builds a new factory in the US $\times$
+- RJ Reynolds Co. buys control of Nabisco $\times$
+- You buy a new Toyota that was made in Japan. $\times$
+- You pay tuition to attend college. $\checkmark$
+
+### Which of these is Counted in GDP and part of investment?
+- A family pays a contractor $200k for a house he built them this year $\checkmark$
+- A family pays $75k for a house built three years ago $\times$
+- The government increases its defense expenditures by $1 billion $\times$
+- The government makes a $300 Social Security payment to a retired person $\times$
+- You buy General Motors Corp. stock for $1k in the stock market $\times$
+- At the end of the year, a flour-milling firm finds that its inventories of grain and flour are $10k above the amounts of its inventories at the beginning of the year $\checkmark$
+- A homemaker works hard caring for her spouse and two children $\times$
+- Ford Motor Co. buys new auto-making robots $\checkmark$ $\times$
+- Apple Computers builds a new factory in the US $\checkmark$
+- RJ Reynolds Co. buys control of Nabisco $\times$
+- You buy a new Toyota that was made in Japan. $\times$
+
+### Which of these is Counted in GDP and part of government spending?
+- A family pays $75k for a house built three years ago $\times$
+- The government increases its defense expenditures by $1 billion $\checkmark$
+- The government makes a $300 Social Security payment to a retired person $\times$
+- You buy General Motors Corp. stock for $1k in the stock market $\times$
+- A homemaker works hard caring for her spouse and two children $\times$
+- RJ Reynolds Co. buys control of Nabisco $\times$
+- You buy a new Toyota that was made in Japan. $\times$
+
+### Which of these is Counted in GDP and part of net export/import?
+- A family pays $75k for a house built three years ago $\times$
+- The government makes a $300 Social Security payment to a retired person $\times$
+- You buy General Motors Corp. stock for $1k in the stock market $\times$
+- A homemaker works hard caring for her spouse and two children $\times$
+- RJ Reynolds Co. buys control of Nabisco $\times$
+- You buy a new Toyota that was made in Japan. $\checkmark$
+
+### We count only the final price of a good or service in GDP. Why?
+We don't count intermediate and used goods/services because then we would be **double-counting**; also, the good/service in question might have not been made in the time period analyzed if it wasn't final.
+
+### A purely financial transaction will not be counted in GDP. Why?
+Because a purely financial transaction doesn't involve consumption, investment, government spending, exports, or imports.
+
+### When a home-owner does home-improvement work, the labor is not counted in GDP. Why?
+They're not paying themself or making any profits off of their work to contribute to the income approach for calculating GDP.
+
+## Calculating GDP Examples
+
+### Example 1
+Suppose that personal income is \$500 billion, personal taxes are \$100 billion, and depreciation is \$50 billion. Disposable income is equal to which of the following?
+
+$DI = PT - PT = 100 - 50 = \$50 \text{ billion}$
+
+### My Practice
+Suppose that personal income is \$100 billion, personal taxes are \$50 billion, and depreciation is \$25 billion. Disposable income is equal to which of the following?
+
+### Example 2
++-----------------------------+--------------+
+| Wages                       | \$50 Billion |
++-----------------------------+--------------+
+| Rent                        | \$20 Billion |
++-----------------------------+--------------+
+| Private Investment Spending | \$10 Billion |
++-----------------------------+--------------+
+| Exports                     | \$30 Billion |
++-----------------------------+--------------+
+| Interest Payments           | \$40 Billion |
++-----------------------------+--------------+
+| HH Profit                   | \$80 Billion |
++-----------------------------+--------------+
+
+What is the GDP? 
+$GDP = W + R + I + X + P = 50 + 20 + 10 + 30 + 80 = \$190 \text{ billion}$
+
+### My Practice
++-----------------------------+---------------+
+| Wages                       | \$90 Billion  |
++-----------------------------+---------------+
+| Rent                        | \$40 Billion  |
++-----------------------------+---------------+
+| Private Investment Spending | \$10 Billion  |
++-----------------------------+---------------+
+| Corporate Taxes             | \$50 Billion  |
++-----------------------------+---------------+
+| Interest Payments           | \$100 Billion |
++-----------------------------+---------------+
+| HH Profit                   | \$90 Billion  |
++-----------------------------+---------------+
+
+What is the GDP? 
+$GDP = W + R + I + X + P = 90 + 40 + 10 + 0 + 90 = \$230 \text{ billion}$
+
+### Example 3
++-----------------------------+--------------+
+| Consumption Spending        | \$50 Billion |
++-----------------------------+--------------+
+| Individual Income Taxes     | \$20 Billion |
++-----------------------------+--------------+
+| Private Investment Spending | \$10 Billion |
++-----------------------------+--------------+
+| Corporate Taxes             | \$20 Billion |
++-----------------------------+--------------+
+| Exports                     | \$30 Billion |
++-----------------------------+--------------+
+| Imports                     | \$40 Billion |
++-----------------------------+--------------+
+| Government Purchases        | \$80 Billion |
++-----------------------------+--------------+
+
+What is the GDP?
+
+### My Practice
++-----------------------------+---------------+
+| Consumption Spending        | \$70 Billion  |
++-----------------------------+---------------+
+| State Income Taxes          | \$10 Billion  |
++-----------------------------+---------------+
+| Private Investment Spending | \$50 Billion  |
++-----------------------------+---------------+
+| Corporate Taxes             | \$80 Billion  |
++-----------------------------+---------------+
+| Net Exports                 | -\$40 Billion |
++-----------------------------+---------------+
+| Government Purchases        | \$50 Billion  |
++-----------------------------+---------------+
+
+What is the GDP?
+
+Using the prior table and the expenditure approach, what percent of GDP is comprised of consumption, investment, and government spending?
+
+How is this possible?
+
+If a firm experiences depreciation of factor resources, which component of GDP is negatively affected?
+
+### Example 4
++-----------------------+------------------+
+| Aggregate Data        | Value (Billions) |
++-----------------------+------------------+
+| Consumption Spending  | 10               |
++-----------------------+------------------+
+| Employee Compensation | 7                |
++-----------------------+------------------+
+| Government Spending   | 60               |
++-----------------------+------------------+
+| Interest Payments     | 10               |
++-----------------------+------------------+
+| Net Exports           | -50              |
++-----------------------+------------------+
+| Profits               | 5                |
++-----------------------+------------------+
+| Rents                 | 5                |
++-----------------------+------------------+
+| Savings               | 10               |
++-----------------------+------------------+
+
+Calculate GDP using both approaches.
+
+Do both approaches yield equal GDP values? Why or why not?
+
+### My Practice
+
++-----------------------+------------------+
+| Aggregate Data        | Value (Billions) |
++-----------------------+------------------+
+| Consumption Spending  | 190              |
++-----------------------+------------------+
+| Employee Compensation | 200              |
++-----------------------+------------------+
+| Government Spending   | 100              |
++-----------------------+------------------+
+| Interest Payments     | 100              |
++-----------------------+------------------+
+| Investment Spending   | 90               |
++-----------------------+------------------+
+| Net Exports           | 60               |
++-----------------------+------------------+
+| Profits               | 50               |
++-----------------------+------------------+
+| Rents                 | 50               |
++-----------------------+------------------+
+| Savings               | 50               |
++-----------------------+------------------+
+
+Calculate GDP using both approaches.
+
+Do both approaches yield equal GDP values? Why or why not?
+
+### Example 5
+A country consists of 2 firms. Firm A's total revenue is \$200 million. The cost of their inputs is \$50 million. Firm B's total revenue is \$100 million. The cost of their inputs is \$10 million. What is the total value added in this economy?
+
+### My Practice
++------------------------+--------+--------+--------+
+| Kingdom of Burbonia    | Firm A | Firm B | Firm C |
++------------------------+--------+--------+--------+
+| Firm's Sales           | 20     | 50     | 100    |
++------------------------+--------+--------+--------+
+| Cost of Intermediate \ | 10 \   | 40 \   | 40 \   |
+| Goods Purchased by \   | \      | \      | \      |
+| Each firm              |        |        |        |
++------------------------+--------+--------+--------+
+
+What is the total value added in the Kingdom of Burbonia, measured in millions of dollars?
+
+### Challenge Problem
+Consumption is one third of total GDP. Gross Private Investment Spending and Government Spending, Combined, are equal to consumption spending. Exports are twice the number of imports. Imports are $50 million. Government spending is four times as much as investment.
+
+What is consumption spending?
+
+
+What is investment spending?
+
+
+What is government spending?
+
+
+What are exports?
+
+
+What is GDP?
+
+{{< pagebreak >}}
+
+# Advanced GDP Calculations (01/25)
+
+## NGDP vs. RGDP
+
+### If we want to measure the amount of production using current prices, what economic measure should we use?
+Nominal GDP
+
+### If we want to measure the amount of production using base year prices, what economic measure should we use?
+Real GDP
+
+### Define "REAL"
+Accounting for inflation by referencing some initial level of price.
+
+### What does RGDP show?
+The measure of true product, accounting for inflation
+
+### What are the formulas for types of GDP?
+|       Nominal GDP        |                Real GDP                |
+| :----------------------: | :------------------------------------: |
+| $\Sigma (Q_c \cdot P_c)$ | $\Sigma (Q_c \cdot P_{c,\text{base}})$ |
+
+
+### Growth rate (percent change) formula:
+$\frac{\text{New GDP}-\text{Old GDP}}{\text{Old GDP}} \cdot 100\%$
+
+For the base year, the RGDP always equals the NGDP.
+
+### Standard of living
+- We use RGDP to measure the standard of living because it accounts for inflation.
+- RGDP per capita is the best measure of standard of living.
+
+### Inflation/Deflation
+- $\frac{NGDP}{RGDP} \cdot 100\%$ is the deflator value ($DF$).
+- If $DF > 100\%$ ($NGDP > RGDP$), there is inflation. 
+- If $DF < 100\%$ ($NGDP < RGDP$), there is deflation.
+- If $DF = 100\%$ ($NGDP = RGDP$), prices are staying the same.
+- Disinflation is when the rate of inflation is decreasing, but inflation is still occurring nonetheless.
+- The deflator is always 100\% in the base year.
+
+### What limitations does GDP have as an economic measure?
+- It doesn't account for non-market production (e.g. stay-at-home parents)
+- It doesn't account for the underground economy (e.g. drug dealers)
+- It doesn't account for negative externalities (e.g. pollution)
