@@ -726,3 +726,100 @@ Day 5: Another discouraged worker finds a new job and starts working immediately
 | Change in LF   | NC        | Dec         | Dec         | NC        | Inc         | Inc         |
 | Change in LFPR | NC        | Dec         | Dec         | NC        | Inc         | Inc         |
 | Change in UER  | Inc       | Inc         | Dec         | Dec       | Dec         | Inc         |
+
+{{< pagebreak >}}
+
+# CPI and Inflation Rate (01/31)
+
+## The Auction Game
+
+### Classroom Data
++-----------+------------------+---------------+------------------+---------------+------------------+---------------+
+| Product   | Round 1 Quantity | Round 1 Price | Round 2 Quantity | Round 2 Price | Round 3 Quantity | Round 3 Price |
++===========+==================+===============+==================+===============+==================+===============+
+| Candy Bag | 1                | 4             | 2                | 20            | 3                | 145           |
++-----------+------------------+---------------+------------------+---------------+------------------+---------------+
+
++---------+-------------+-------------+---------+-------------+--------------+--------+------------+
+| Rnd 1 \ |  Round 1 \  |  Round 1\   | Rnd 2 \ |  Round 2 \  |  Round 2 \   | Rnd 3\ |   Rnd 3\   |
+|  Price  | Remaining \ | Additional\ |  Price  | Remaining \ | Additional \ | Price  | Remaining\ |
+|         |   Money \   |   Money\    |         |   Money \   |    Money\    |        |   Money\   |
+|         |   Supply    |   Supply    |         |   Supply    |    Supply    |        |  Supply \  |
++=========+=============+=============+=========+=============+==============+========+============+
+| 10      | 90          | 10          | 20      | 80          | 20           | 30     | 70         |
++---------+-------------+-------------+---------+-------------+--------------+--------+------------+
+
+### Questions
+1. What do the beans held by each person represent?
+
+Money
+
+2. What do all the beans in the room reperesent?
+
+All of the money in the economy
+
+3. What do you notice about the quantities across the 3 different rounds of the auction?
+
+a
+
+4. What do you notice about the prices across the 3 different rounds of the action?
+
+a
+
+5. With respect to your observations in #4, why did this happen?
+
+a
+
+6. Does this simulation demonstrate price stability or price instability?
+
+a
+
+7. Who was hurt the most across the 3 rounds? The least?
+
+a
+
+8. Did the quality of the goods change across the rounds of gameplay? Was this in line with the tendency of prices?
+
+a
+
+9. Did quantity or price appear to have the greater percentage of change across the rounds?
+
+a
+
+10. Does the total spending across the 3 rounds reflect the change in production or consumption? What econmic measures are used to reflect this phenomenon?
+
+a
+
+11. Under what conditions did increasing the money supply (beans) cause inflation? Under what conditions did increasing the money supply (beans) not cause inflation?
+
+## CPI
+The **CPI** (consumer price index) is a measure of the average change over time in the prices paid by urban consumers for a market basket of consumer goods and services. 
+
+- The 8 major groups of the CPI
+  - Food and beverages
+  - Housing
+  - Apparel
+  - Transportation
+  - Medical care
+  - Recreation
+  - Education and communication
+  - Other goods and services
+- It does not include life insurance, social security, or income taxes.
+- The core CPI is the CPI minus food and energy prices.
+
+## Calculating CPI
+The formula for calculating the CPI is:
+
+$CPI = \frac{\Sigma (P_c \cdot Q_b)}{\Sigma (P_{c,\text{base}} \cdot Q_b)} \cdot 100$
+
+Where $P_c$ is the current price, $P_{c,\text{base}}$ is the base year price, and $Q_b$ is the quantity of the good/service. 
+
+In other words, the CPI is the **ratio** of the cost of the market basket in the current year to the cost of the market basket in the base year times 100\%.
+
+## Inflation Rate
+The formula for calculating the inflation rate is:
+
+$\text{Inflation Rate} = \frac{\text{CPI}_{\text{c}} - \text{CPI}_{\text{b}}}{\text{CPI}_{\text{b}}} \cdot 100\%$
+
+## Main Idea: What is the difference between the CPI and the GDP deflator?
+The **CPI** inflator is for *consumers*, while the **GDP** deflator is for *producers*.
