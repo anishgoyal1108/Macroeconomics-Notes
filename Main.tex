@@ -106,10 +106,6 @@
 \; }
 \KOMAoption{captions}{tableheading}
 \makeatletter
-\makeatother
-\makeatletter
-\makeatother
-\makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
 \ifdefined\contentsname
@@ -145,23 +141,16 @@
 \newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
 \makeatother
 \makeatletter
+\makeatother
+\makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
-\makeatother
-\makeatletter
-\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
-\makeatother
-\makeatletter
-\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
-\makeatother
-\makeatletter
-\makeatother
-\makeatletter
 \makeatother
 \ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\usepackage{bookmark}
+
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
@@ -176,10 +165,9 @@
 \date{}
 
 \begin{document}
+
 \input{./title.tex}
 \newpage
-
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[enhanced, sharp corners, frame hidden, interior hidden, breakable, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of Contents}
 {
@@ -189,12 +177,10 @@
 }
 \newpage{}
 
-\hypertarget{types-of-goods-0108}{%
-\section{Types of Goods (01/08)}\label{types-of-goods-0108}}
+\section{Types of Goods (01/08)}\label{types-of-goods-0108}
 
-\hypertarget{characteristics-of-the-four-types-of-goods}{%
 \subsection{Characteristics of the Four Types of
-Goods}\label{characteristics-of-the-four-types-of-goods}}
+Goods}\label{characteristics-of-the-four-types-of-goods}
 
 \begin{itemize}
 \tightlist
@@ -215,8 +201,7 @@ Goods}\label{characteristics-of-the-four-types-of-goods}}
   resource
 \end{itemize}
 
-\hypertarget{the-four-types-of-goods}{%
-\subsection{The Four Types of Goods}\label{the-four-types-of-goods}}
+\subsection{The Four Types of Goods}\label{the-four-types-of-goods}
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1707}}
@@ -251,8 +236,7 @@ Goods}\label{characteristics-of-the-four-types-of-goods}}
 \end{minipage} \\
 \end{longtable}
 
-\hypertarget{examples}{%
-\subsection{Examples}\label{examples}}
+\subsection{Examples}\label{examples}
 
 \begin{verbatim}
               Case Scenario                   | Type of Good/Service
@@ -278,12 +262,10 @@ Private good
 
 \newpage{}
 
-\hypertarget{introduction-to-externalities-0109-0110}{%
 \section{Introduction to Externalities
-(01/09-01/10)}\label{introduction-to-externalities-0109-0110}}
+(01/09-01/10)}\label{introduction-to-externalities-0109-0110}
 
-\hypertarget{overview}{%
-\subsection{Overview}\label{overview}}
+\subsection{Overview}\label{overview}
 
 \begin{itemize}
 \tightlist
@@ -305,14 +287,12 @@ Private good
   \end{itemize}
 \end{itemize}
 
-\hypertarget{internalizing-an-externality-aka-how-to-fix-an-externality}{%
 \subsection{\texorpdfstring{Internalizing an Externality (aka \emph{how
 to fix an
-externality})}{Internalizing an Externality (aka how to fix an externality)}}\label{internalizing-an-externality-aka-how-to-fix-an-externality}}
+externality})}{Internalizing an Externality (aka how to fix an externality)}}\label{internalizing-an-externality-aka-how-to-fix-an-externality}
 
-\hypertarget{problems-with-externalities}{%
 \subsubsection{Problems with
-externalities}\label{problems-with-externalities}}
+externalities}\label{problems-with-externalities}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -324,8 +304,7 @@ externalities}\label{problems-with-externalities}}
   Public goods and common pool resources tend to lack property rights
 \end{enumerate}
 
-\hypertarget{coase-theorem-the-fix}{%
-\subsubsection{Coase Theorem (the fix!)}\label{coase-theorem-the-fix}}
+\subsubsection{Coase Theorem (the fix!)}\label{coase-theorem-the-fix}
 
 ``We can fix externalities without the government if we\ldots{}''
 
@@ -338,8 +317,7 @@ externalities}\label{problems-with-externalities}}
   Minimize transaction costs
 \end{enumerate}
 
-\hypertarget{examples-1}{%
-\subsubsection{Examples}\label{examples-1}}
+\subsubsection{Examples}\label{examples-1}
 
 Methods the government can employ to internalize an externality in a
 free market:
@@ -354,11 +332,10 @@ free market:
 
 \newpage{}
 
-\hypertarget{positive-externality-in-consumption}{%
 \subsection{Positive Externality in
-Consumption}\label{positive-externality-in-consumption}}
+Consumption}\label{positive-externality-in-consumption}
 
-\begin{figure}
+\begin{figure}[H]
 
 {\centering \includegraphics[width=0.5\textwidth,height=\textheight]{img/pos-cons.png}
 
@@ -366,10 +343,9 @@ Consumption}\label{positive-externality-in-consumption}}
 
 \caption{Positive Externality in Consumption}
 
-\end{figure}
+\end{figure}%
 
-\hypertarget{examples-2}{%
-\subsubsection{Examples}\label{examples-2}}
+\subsubsection{Examples}\label{examples-2}
 
 \begin{itemize}
 \tightlist
@@ -382,8 +358,7 @@ Consumption}\label{positive-externality-in-consumption}}
   \(\therefore MPB\) goes up and moves the market toward \(MSB\).
 \end{itemize}
 
-\hypertarget{spillover-effect}{%
-\subsubsection{Spillover Effect}\label{spillover-effect}}
+\subsubsection{Spillover Effect}\label{spillover-effect}
 
 \begin{itemize}
 \tightlist
@@ -395,9 +370,8 @@ Consumption}\label{positive-externality-in-consumption}}
   \(MPC = MSC\)
 \end{itemize}
 
-\hypertarget{internalizing-the-spillover-effect}{%
 \subsubsection{Internalizing the Spillover
-Effect}\label{internalizing-the-spillover-effect}}
+Effect}\label{internalizing-the-spillover-effect}
 
 \begin{itemize}
 \tightlist
@@ -412,11 +386,10 @@ Effect}\label{internalizing-the-spillover-effect}}
 
 \newpage{}
 
-\hypertarget{negative-externality-in-consumption}{%
 \subsection{Negative Externality in
-Consumption}\label{negative-externality-in-consumption}}
+Consumption}\label{negative-externality-in-consumption}
 
-\begin{figure}
+\begin{figure}[H]
 
 {\centering \includegraphics[width=0.45\textwidth,height=\textheight]{img/neg-cons.png}
 
@@ -424,10 +397,9 @@ Consumption}\label{negative-externality-in-consumption}}
 
 \caption{Negative Externality in Consumption}
 
-\end{figure}
+\end{figure}%
 
-\hypertarget{examples-3}{%
-\subsubsection{Examples}\label{examples-3}}
+\subsubsection{Examples}\label{examples-3}
 
 \begin{itemize}
 \tightlist
@@ -441,8 +413,7 @@ Consumption}\label{negative-externality-in-consumption}}
   Discarding garbage in public places
 \end{itemize}
 
-\hypertarget{spillover-effect-1}{%
-\subsubsection{Spillover Effect}\label{spillover-effect-1}}
+\subsubsection{Spillover Effect}\label{spillover-effect-1}
 
 \begin{itemize}
 \tightlist
@@ -454,9 +425,8 @@ Consumption}\label{negative-externality-in-consumption}}
   \(MPC = MSC\)
 \end{itemize}
 
-\hypertarget{internalizing-the-spillover-effect-1}{%
 \subsubsection{Internalizing the Spillover
-Effect}\label{internalizing-the-spillover-effect-1}}
+Effect}\label{internalizing-the-spillover-effect-1}
 
 \begin{itemize}
 \tightlist
@@ -470,11 +440,10 @@ Effect}\label{internalizing-the-spillover-effect-1}}
 
 \newpage{}
 
-\hypertarget{positive-externality-in-production}{%
 \subsection{Positive Externality in
-Production}\label{positive-externality-in-production}}
+Production}\label{positive-externality-in-production}
 
-\begin{figure}
+\begin{figure}[H]
 
 {\centering \includegraphics[width=0.5\textwidth,height=\textheight]{img/pos-prod.png}
 
@@ -482,10 +451,9 @@ Production}\label{positive-externality-in-production}}
 
 \caption{Positive Externality in Production}
 
-\end{figure}
+\end{figure}%
 
-\hypertarget{examples-4}{%
-\subsubsection{Examples}\label{examples-4}}
+\subsubsection{Examples}\label{examples-4}
 
 \begin{itemize}
 \tightlist
@@ -496,8 +464,7 @@ Production}\label{positive-externality-in-production}}
   Firms invest in research and development (R\&D).
 \end{itemize}
 
-\hypertarget{spillover-effect-2}{%
-\subsubsection{Spillover Effect}\label{spillover-effect-2}}
+\subsubsection{Spillover Effect}\label{spillover-effect-2}
 
 \begin{itemize}
 \tightlist
@@ -509,9 +476,8 @@ Production}\label{positive-externality-in-production}}
   \(MPC > MSC\)
 \end{itemize}
 
-\hypertarget{internalizing-the-spillover-effect-2}{%
 \subsubsection{Internalizing the Spillover
-Effect}\label{internalizing-the-spillover-effect-2}}
+Effect}\label{internalizing-the-spillover-effect-2}
 
 \begin{itemize}
 \tightlist
@@ -526,11 +492,10 @@ Effect}\label{internalizing-the-spillover-effect-2}}
 
 \newpage{}
 
-\hypertarget{negative-externality-in-production}{%
 \subsection{Negative Externality in
-Production}\label{negative-externality-in-production}}
+Production}\label{negative-externality-in-production}
 
-\begin{figure}
+\begin{figure}[H]
 
 {\centering \includegraphics[width=0.5\textwidth,height=\textheight]{img/neg-prod.png}
 
@@ -538,10 +503,9 @@ Production}\label{negative-externality-in-production}}
 
 \caption{Negative Externality in Production}
 
-\end{figure}
+\end{figure}%
 
-\hypertarget{examples-5}{%
-\subsubsection{Examples}\label{examples-5}}
+\subsubsection{Examples}\label{examples-5}
 
 \begin{itemize}
 \tightlist
@@ -554,8 +518,7 @@ Production}\label{negative-externality-in-production}}
   Coal fired power plants
 \end{itemize}
 
-\hypertarget{spillover-effect-3}{%
-\subsubsection{Spillover Effect}\label{spillover-effect-3}}
+\subsubsection{Spillover Effect}\label{spillover-effect-3}
 
 \begin{itemize}
 \tightlist
@@ -567,9 +530,8 @@ Production}\label{negative-externality-in-production}}
   \(MPC < MSC\)
 \end{itemize}
 
-\hypertarget{internalizing-the-spillover-effect-3}{%
 \subsubsection{Internalizing the Spillover
-Effect}\label{internalizing-the-spillover-effect-3}}
+Effect}\label{internalizing-the-spillover-effect-3}
 
 \begin{itemize}
 \tightlist
@@ -583,12 +545,10 @@ Effect}\label{internalizing-the-spillover-effect-3}}
 
 \newpage{}
 
-\hypertarget{income-inequality-0112}{%
-\section{Income Inequality (01/12)}\label{income-inequality-0112}}
+\section{Income Inequality (01/12)}\label{income-inequality-0112}
 
-\hypertarget{the-lorenz-curve-and-gini-coefficient}{%
 \subsection{The Lorenz Curve and Gini
-Coefficient}\label{the-lorenz-curve-and-gini-coefficient}}
+Coefficient}\label{the-lorenz-curve-and-gini-coefficient}
 
 \begin{itemize}
 \tightlist
@@ -630,7 +590,7 @@ Coefficient}\label{the-lorenz-curve-and-gini-coefficient}}
   \end{itemize}
 \end{itemize}
 
-\begin{figure}
+\begin{figure}[H]
 
 {\centering \includegraphics[width=0.68\textwidth,height=\textheight]{img/lorenz.png}
 
@@ -638,7 +598,7 @@ Coefficient}\label{the-lorenz-curve-and-gini-coefficient}}
 
 \caption{Visual depiction of the Lorenz Curve}
 
-\end{figure}
+\end{figure}%
 
 As demonstrated in \emph{Figure 6} below:
 
@@ -652,7 +612,7 @@ As demonstrated in \emph{Figure 6} below:
   \(A+B\) must also equal the area under \(y=x\), or \(\frac{1}{2}\).
 \end{itemize}
 
-\begin{figure}
+\begin{figure}[H]
 
 {\centering \includegraphics[width=1\textwidth,height=\textheight]{img/varying-gini.png}
 
@@ -661,20 +621,18 @@ As demonstrated in \emph{Figure 6} below:
 \caption{Varying Gini Coefficients and their corresponding Lorenz
 Curves}
 
-\end{figure}
+\end{figure}%
 
-\hypertarget{deriving-simpler-expressions-for-the-gini-coefficient}{%
 \subsection{Deriving Simpler Expressions for the Gini
-Coefficient}\label{deriving-simpler-expressions-for-the-gini-coefficient}}
+Coefficient}\label{deriving-simpler-expressions-for-the-gini-coefficient}
 
 Since we know that
 \(A+B = \int_{0}^{1} x \ \mathrm{d}x = \left.\frac{x^2}{2}\right\vert_{0}^{1} = \frac{1}{2}\),
 we can derive ``easier'' expressions to calculate the Gini Coefficient
 \(G\).
 
-\hypertarget{deriving-g2a}{%
 \subsubsection{\texorpdfstring{Deriving
-\(G=2A\)}{Deriving G=2A}}\label{deriving-g2a}}
+\(G=2A\)}{Deriving G=2A}}\label{deriving-g2a}
 
 \begin{align}
 G &= \frac{A}{A+B}\tag{Initial Gini Coefficient formula} \\
@@ -695,9 +653,8 @@ A+\left(\frac{A}{G}-A\right) &= \frac{1}{2}\tag{Substitute $B$} \\
 2A &= G\tag{Multiply by 2}
 \end{align}
 
-\hypertarget{deriving-g1-2b}{%
 \subsubsection{\texorpdfstring{Deriving
-\(G=1-2B\)}{Deriving G=1-2B}}\label{deriving-g1-2b}}
+\(G=1-2B\)}{Deriving G=1-2B}}\label{deriving-g1-2b}
 
 Since we've already expressed \(B\) in terms of \(A\), we just need to
 get \(A\) in terms of \(B\).
@@ -719,13 +676,11 @@ G &= 1-2B
 
 \newpage{}
 
-\hypertarget{negative-externalities-public-vs.-private-resolution-and-more-on-the-coase-theorem-0116}{%
 \subsection{Negative Externalities: Public vs.~Private Resolution and
 More on the Coase Theorem
-(01/16)}\label{negative-externalities-public-vs.-private-resolution-and-more-on-the-coase-theorem-0116}}
+(01/16)}\label{negative-externalities-public-vs.-private-resolution-and-more-on-the-coase-theorem-0116}
 
-\hypertarget{conditions}{%
-\subsubsection{Conditions}\label{conditions}}
+\subsubsection{Conditions}\label{conditions}
 
 Recall that the \textbf{Coase Theorem} states market failures will
 always be resolved by the free market. Here are all the conditions for
@@ -745,9 +700,8 @@ Coase Theorem to hold true:
   leverage
 \end{itemize}
 
-\hypertarget{miscellaneous-market-failures}{%
 \subsubsection{Miscellaneous Market
-Failures}\label{miscellaneous-market-failures}}
+Failures}\label{miscellaneous-market-failures}
 
 There are a couple of other market failures that the government should
 try to combat, based on the types of markets we learned about \emph{in
@@ -775,9 +729,8 @@ previous units}:
   \end{itemize}
 \end{itemize}
 
-\hypertarget{intro-to-macronomic-indicators-0122-0123}{%
 \section{Intro to Macronomic Indicators
-(01/22-01/23)}\label{intro-to-macronomic-indicators-0122-0123}}
+(01/22-01/23)}\label{intro-to-macronomic-indicators-0122-0123}
 
 GDP stands for Gross Domestic Product. These three words are important
 to understand:
@@ -826,8 +779,7 @@ Domestically & WITHIN US borders & US citizens abroad \\
 Time & This year (NEW production) & OLD G\&S, Goodwill \\
 \end{longtable}
 
-\hypertarget{calculating-gdp}{%
-\subsection{Calculating GDP}\label{calculating-gdp}}
+\subsection{Calculating GDP}\label{calculating-gdp}
 
 GDP is known as tam easure of \emph{national income accounting}. What
 are the two accounting techniques used in measuring GDP?
@@ -861,11 +813,10 @@ are the two accounting techniques used in measuring GDP?
 
 \newpage{}
 
-\hypertarget{circular-flow-model-and-leakages}{%
 \subsection{Circular Flow Model and
-Leakages}\label{circular-flow-model-and-leakages}}
+Leakages}\label{circular-flow-model-and-leakages}
 
-\begin{figure}
+\begin{figure}[H]
 
 {\centering \includegraphics[width=0.75\textwidth,height=\textheight]{img/circular-flow.png}
 
@@ -873,7 +824,7 @@ Leakages}\label{circular-flow-model-and-leakages}}
 
 \caption{Circular Flow Model}
 
-\end{figure}
+\end{figure}%
 
 \begin{itemize}
 \tightlist
@@ -884,8 +835,7 @@ Leakages}\label{circular-flow-model-and-leakages}}
   Your piggy bank and transfer payments are leakages.
 \end{itemize}
 
-\hypertarget{gross-national-product}{%
-\subsection{Gross National Product}\label{gross-national-product}}
+\subsection{Gross National Product}\label{gross-national-product}
 
 \begin{itemize}
 \tightlist
@@ -894,13 +844,11 @@ Leakages}\label{circular-flow-model-and-leakages}}
   prodced by Americans anywhere in the world during a time period.
 \end{itemize}
 
-\hypertarget{examples-of-factors-that-affect-gdp}{%
 \subsection{Examples of Factors that Affect
-GDP}\label{examples-of-factors-that-affect-gdp}}
+GDP}\label{examples-of-factors-that-affect-gdp}
 
-\hypertarget{which-of-these-is-counted-in-gdp}{%
 \subsubsection{Which of these is Counted in
-GDP?}\label{which-of-these-is-counted-in-gdp}}
+GDP?}\label{which-of-these-is-counted-in-gdp}
 
 \begin{itemize}
 \tightlist
@@ -928,9 +876,8 @@ GDP?}\label{which-of-these-is-counted-in-gdp}}
   Income received from the sale of Nike Stock \(\times\)
 \end{itemize}
 
-\hypertarget{which-of-these-is-counted-in-gdp-and-part-of-consumption}{%
 \subsubsection{Which of these is counted in GDP and part of
-consumption?}\label{which-of-these-is-counted-in-gdp-and-part-of-consumption}}
+consumption?}\label{which-of-these-is-counted-in-gdp-and-part-of-consumption}
 
 \begin{itemize}
 \tightlist
@@ -973,9 +920,8 @@ consumption?}\label{which-of-these-is-counted-in-gdp-and-part-of-consumption}}
   You pay tuition to attend college. \(\checkmark\)
 \end{itemize}
 
-\hypertarget{which-of-these-is-counted-in-gdp-and-part-of-investment}{%
 \subsubsection{Which of these is Counted in GDP and part of
-investment?}\label{which-of-these-is-counted-in-gdp-and-part-of-investment}}
+investment?}\label{which-of-these-is-counted-in-gdp-and-part-of-investment}
 
 \begin{itemize}
 \tightlist
@@ -1010,9 +956,8 @@ investment?}\label{which-of-these-is-counted-in-gdp-and-part-of-investment}}
   You buy a new Toyota that was made in Japan. \(\times\)
 \end{itemize}
 
-\hypertarget{which-of-these-is-counted-in-gdp-and-part-of-government-spending}{%
 \subsubsection{Which of these is Counted in GDP and part of government
-spending?}\label{which-of-these-is-counted-in-gdp-and-part-of-government-spending}}
+spending?}\label{which-of-these-is-counted-in-gdp-and-part-of-government-spending}
 
 \begin{itemize}
 \tightlist
@@ -1036,9 +981,8 @@ spending?}\label{which-of-these-is-counted-in-gdp-and-part-of-government-spendin
   You buy a new Toyota that was made in Japan. \(\times\)
 \end{itemize}
 
-\hypertarget{which-of-these-is-counted-in-gdp-and-part-of-net-exportimport}{%
 \subsubsection{Which of these is Counted in GDP and part of net
-export/import?}\label{which-of-these-is-counted-in-gdp-and-part-of-net-exportimport}}
+export/import?}\label{which-of-these-is-counted-in-gdp-and-part-of-net-exportimport}
 
 \begin{itemize}
 \tightlist
@@ -1059,36 +1003,31 @@ export/import?}\label{which-of-these-is-counted-in-gdp-and-part-of-net-exportimp
   You buy a new Toyota that was made in Japan. \(\checkmark\)
 \end{itemize}
 
-\hypertarget{we-count-only-the-final-price-of-a-good-or-service-in-gdp.-why}{%
 \subsubsection{We count only the final price of a good or service in
 GDP.
-Why?}\label{we-count-only-the-final-price-of-a-good-or-service-in-gdp.-why}}
+Why?}\label{we-count-only-the-final-price-of-a-good-or-service-in-gdp.-why}
 
 We don't count intermediate and used goods/services because then we
 would be \textbf{double-counting}; also, the good/service in question
 might have not been made in the time period analyzed if it wasn't final.
 
-\hypertarget{a-purely-financial-transaction-will-not-be-counted-in-gdp.-why}{%
 \subsubsection{A purely financial transaction will not be counted in
 GDP.
-Why?}\label{a-purely-financial-transaction-will-not-be-counted-in-gdp.-why}}
+Why?}\label{a-purely-financial-transaction-will-not-be-counted-in-gdp.-why}
 
 Because a purely financial transaction doesn't involve consumption,
 investment, government spending, exports, or imports.
 
-\hypertarget{when-a-home-owner-does-home-improvement-work-the-labor-is-not-counted-in-gdp.-why}{%
 \subsubsection{When a home-owner does home-improvement work, the labor
 is not counted in GDP.
-Why?}\label{when-a-home-owner-does-home-improvement-work-the-labor-is-not-counted-in-gdp.-why}}
+Why?}\label{when-a-home-owner-does-home-improvement-work-the-labor-is-not-counted-in-gdp.-why}
 
 They're not paying themself or making any profits off of their work to
 contribute to the income approach for calculating GDP.
 
-\hypertarget{calculating-gdp-examples}{%
-\subsection{Calculating GDP Examples}\label{calculating-gdp-examples}}
+\subsection{Calculating GDP Examples}\label{calculating-gdp-examples}
 
-\hypertarget{example-1}{%
-\subsubsection{Example 1}\label{example-1}}
+\subsubsection{Example 1}\label{example-1}
 
 Suppose that personal income is \$500 billion, personal taxes are \$100
 billion, and depreciation is \$50 billion. Disposable income is equal to
@@ -1096,15 +1035,13 @@ which of the following?
 
 \(DI = PT - PT = 100 - 50 = \$50 \text{ billion}\)
 
-\hypertarget{my-practice}{%
-\subsubsection{My Practice}\label{my-practice}}
+\subsubsection{My Practice}\label{my-practice}
 
 Suppose that personal income is \$100 billion, personal taxes are \$50
 billion, and depreciation is \$25 billion. Disposable income is equal to
 which of the following?
 
-\hypertarget{example-2}{%
-\subsubsection{Example 2}\label{example-2}}
+\subsubsection{Example 2}\label{example-2}
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4167}}
@@ -1124,8 +1061,7 @@ HH Profit & \$80 Billion \\
 What is the GDP?
 \(GDP = W + R + I + X + P = 50 + 20 + 10 + 30 + 80 = \$190 \text{ billion}\)
 
-\hypertarget{my-practice-1}{%
-\subsubsection{My Practice}\label{my-practice-1}}
+\subsubsection{My Practice}\label{my-practice-1}
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4167}}
@@ -1145,8 +1081,7 @@ HH Profit & \$90 Billion \\
 What is the GDP?
 \(GDP = W + R + I + X + P = 90 + 40 + 10 + 0 + 90 = \$230 \text{ billion}\)
 
-\hypertarget{example-3}{%
-\subsubsection{Example 3}\label{example-3}}
+\subsubsection{Example 3}\label{example-3}
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4167}}
@@ -1166,8 +1101,7 @@ Government Purchases & \$80 Billion \\
 
 What is the GDP?
 
-\hypertarget{my-practice-2}{%
-\subsubsection{My Practice}\label{my-practice-2}}
+\subsubsection{My Practice}\label{my-practice-2}
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4167}}
@@ -1194,8 +1128,7 @@ How is this possible?
 If a firm experiences depreciation of factor resources, which component
 of GDP is negatively affected?
 
-\hypertarget{example-4}{%
-\subsubsection{Example 4}\label{example-4}}
+\subsubsection{Example 4}\label{example-4}
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3333}}
@@ -1219,8 +1152,7 @@ Calculate GDP using both approaches.
 
 Do both approaches yield equal GDP values? Why or why not?
 
-\hypertarget{my-practice-3}{%
-\subsubsection{My Practice}\label{my-practice-3}}
+\subsubsection{My Practice}\label{my-practice-3}
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3333}}
@@ -1245,16 +1177,14 @@ Calculate GDP using both approaches.
 
 Do both approaches yield equal GDP values? Why or why not?
 
-\hypertarget{example-5}{%
-\subsubsection{Example 5}\label{example-5}}
+\subsubsection{Example 5}\label{example-5}
 
 A country consists of 2 firms. Firm A's total revenue is \$200 million.
 The cost of their inputs is \$50 million. Firm B's total revenue is
 \$100 million. The cost of their inputs is \$10 million. What is the
 total value added in this economy?
 
-\hypertarget{my-practice-4}{%
-\subsubsection{My Practice}\label{my-practice-4}}
+\subsubsection{My Practice}\label{my-practice-4}
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3472}}
@@ -1289,8 +1219,7 @@ Each firm\strut
 What is the total value added in the Kingdom of Burbonia, measured in
 millions of dollars?
 
-\hypertarget{challenge-problem}{%
-\subsubsection{Challenge Problem}\label{challenge-problem}}
+\subsubsection{Challenge Problem}\label{challenge-problem}
 
 Consumption is one third of total GDP. Gross Private Investment Spending
 and Government Spending, Combined, are equal to consumption spending.
@@ -1309,40 +1238,33 @@ What is GDP?
 
 \newpage{}
 
-\hypertarget{advanced-gdp-calculations-0125}{%
 \section{Advanced GDP Calculations
-(01/25)}\label{advanced-gdp-calculations-0125}}
+(01/25)}\label{advanced-gdp-calculations-0125}
 
-\hypertarget{ngdp-vs.-rgdp}{%
-\subsection{NGDP vs.~RGDP}\label{ngdp-vs.-rgdp}}
+\subsection{NGDP vs.~RGDP}\label{ngdp-vs.-rgdp}
 
-\hypertarget{if-we-want-to-measure-the-amount-of-production-using-current-prices-what-economic-measure-should-we-use}{%
 \subsubsection{If we want to measure the amount of production using
 current prices, what economic measure should we
-use?}\label{if-we-want-to-measure-the-amount-of-production-using-current-prices-what-economic-measure-should-we-use}}
+use?}\label{if-we-want-to-measure-the-amount-of-production-using-current-prices-what-economic-measure-should-we-use}
 
 Nominal GDP
 
-\hypertarget{if-we-want-to-measure-the-amount-of-production-using-base-year-prices-what-economic-measure-should-we-use}{%
 \subsubsection{If we want to measure the amount of production using base
 year prices, what economic measure should we
-use?}\label{if-we-want-to-measure-the-amount-of-production-using-base-year-prices-what-economic-measure-should-we-use}}
+use?}\label{if-we-want-to-measure-the-amount-of-production-using-base-year-prices-what-economic-measure-should-we-use}
 
 Real GDP
 
-\hypertarget{define-real}{%
-\subsubsection{Define ``REAL''}\label{define-real}}
+\subsubsection{Define ``REAL''}\label{define-real}
 
 Accounting for inflation by referencing some initial level of price.
 
-\hypertarget{what-does-rgdp-show}{%
-\subsubsection{What does RGDP show?}\label{what-does-rgdp-show}}
+\subsubsection{What does RGDP show?}\label{what-does-rgdp-show}
 
 The measure of true product, accounting for inflation
 
-\hypertarget{what-are-the-formulas-for-types-of-gdp}{%
 \subsubsection{What are the formulas for types of
-GDP?}\label{what-are-the-formulas-for-types-of-gdp}}
+GDP?}\label{what-are-the-formulas-for-types-of-gdp}
 
 \begin{longtable}[]{@{}cc@{}}
 \toprule\noalign{}
@@ -1354,16 +1276,14 @@ Nominal GDP & Real GDP \\
 \(\Sigma (Q_c \cdot P_c)\) & \(\Sigma (Q_c \cdot P_{c,\text{base}})\) \\
 \end{longtable}
 
-\hypertarget{growth-rate-percent-change-formula}{%
 \subsubsection{Growth rate (percent change)
-formula:}\label{growth-rate-percent-change-formula}}
+formula:}\label{growth-rate-percent-change-formula}
 
 \(\frac{\text{New GDP}-\text{Old GDP}}{\text{Old GDP}} \cdot 100\%\)
 
 For the base year, the RGDP always equals the NGDP.
 
-\hypertarget{standard-of-living}{%
-\subsubsection{Standard of living}\label{standard-of-living}}
+\subsubsection{Standard of living}\label{standard-of-living}
 
 \begin{itemize}
 \tightlist
@@ -1374,8 +1294,7 @@ For the base year, the RGDP always equals the NGDP.
   RGDP per capita is the best measure of standard of living.
 \end{itemize}
 
-\hypertarget{inflationdeflation}{%
-\subsubsection{Inflation/Deflation}\label{inflationdeflation}}
+\subsubsection{Inflation/Deflation}\label{inflationdeflation}
 
 \begin{itemize}
 \tightlist
@@ -1394,9 +1313,8 @@ For the base year, the RGDP always equals the NGDP.
   The deflator is always 100\% in the base year.
 \end{itemize}
 
-\hypertarget{what-limitations-does-gdp-have-as-an-economic-measure}{%
 \subsubsection{What limitations does GDP have as an economic
-measure?}\label{what-limitations-does-gdp-have-as-an-economic-measure}}
+measure?}\label{what-limitations-does-gdp-have-as-an-economic-measure}
 
 \begin{itemize}
 \tightlist
@@ -1408,6 +1326,277 @@ measure?}\label{what-limitations-does-gdp-have-as-an-economic-measure}}
 \item
   It doesn't account for negative externalities (e.g.~pollution)
 \end{itemize}
+
+\section{Unemployment (01/29)}\label{unemployment-0129}
+
+\subsection{Questions on introductory unemployment
+terms}\label{questions-on-introductory-unemployment-terms}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Who constitutes as being employed?
+\end{enumerate}
+
+If they worked full or part time during the past week or is on vacation
+or sick leave from a regular job.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Who constitutes as being unemployed?
+\end{enumerate}
+
+If they did not work during the preceding week but made some effort to
+find work in the past four weeks.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Who constitutes as being out of the labor force?
+\end{enumerate}
+
+People who are not employed and haven't looked for a job in four weeks.
+Institutionalized (prison), military, and those younger than 16 as well.
+Discouraged workers, full time students, unpaid homemakers, and retirees
+are examples.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  Who constitutes a discouraged worker? Do they cause an underestimate
+  or overestimate of the unemployment rate?
+\end{enumerate}
+
+Workers tha thave given up looking ofr a job, now considered out of the
+labor force.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Is the entire population considered for unemployment calculations?
+\end{enumerate}
+
+Only adults (16+), non-institutionalized, civilian, nonretired
+population.
+
+\subsection{Types of unemployment}\label{types-of-unemployment}
+
+\textbf{Frictional unemployment}
+
+\begin{itemize}
+\tightlist
+\item
+  Unemployment that is initiated by workers themselves, who are in
+  between jobs.
+\item
+  ``You quit your job and are looking for a new one''
+\end{itemize}
+
+\textbf{Structural unemployment}
+
+\begin{itemize}
+\tightlist
+\item
+  When the firm doesn't need the worker anymore
+\item
+  ``Your skills are no longer needed''
+\item
+  This could indicate a displacement of workers by technology
+\end{itemize}
+
+\textbf{Cyclical unemployment}
+
+\begin{itemize}
+\tightlist
+\item
+  Unemployment that is caused by a recession
+\item
+  ``Your skills are still needed, but the economy is not doing well''
+\end{itemize}
+
+\subsection{Unemployment calculations}\label{unemployment-calculations}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Total Population:
+\end{enumerate}
+
+18+9+2+1 = 30
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Total Adult Working-Age Population
+\end{enumerate}
+
+18+9+2 = 29
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Total Employed
+\end{enumerate}
+
+18
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  Total Unemployed
+\end{enumerate}
+
+9
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Total Labor Force:
+\end{enumerate}
+
+\(EM+UE = 18+9=27\)
+
+Finding the three important rates
+
+Note: \(ER + UR = 100\%\)
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Labor Force Participation Rate (LFPR):
+\end{enumerate}
+
+\(\frac{LF}{TAWAP} \cdot 100\% = \frac{27}{29} \cdot 100\% = 93.1\%\)
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Employment Rate (ER)
+\end{enumerate}
+
+\(\frac{EM}{LF} = \frac{EM}{EM+UE} \cdot 100\% = \frac{18}{27} \cdot 100\% = 66.7\%\)
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Unemployment Rate (UR)
+\end{enumerate}
+
+\(\frac{UE}{LF} = \frac{UE}{(EM+UE)} = \frac{9}{27} = 33.3\%\)
+
+\subsection{The Flow Problem}\label{the-flow-problem}
+
+Day 1: Country of Burbonia has 10 citizens. All citizens are of the
+working-age population. 3 are UE. 1 is Discouraged. 6 are EM.
+
+ER: 67.66\%, UR: 33.33\%, LFPR: 90\%
+
+Day 2: One worker loses their job to the machine, but they continue to
+look for employment.
+
+\begin{itemize}
+\tightlist
+\item
+  4 UE, 1 Discouraged, 5 EM
+\item
+  ER: 55.56\%, UR: 44.44\%, LFPR: 90\%
+\item
+  ER: Decreases, UR: Increases, LFPR: Stays the same
+\end{itemize}
+
+Day 3: One unemployed laborer becomes discouraged.
+
+\begin{itemize}
+\tightlist
+\item
+  3 UE, 2 Discouraged, 5 EM
+\item
+  ER: 62.5\%, UR: 37.5\%, LFPR: 80\%
+\item
+  ER: Increases, UR: Decreases, LFPR: Decreases
+\end{itemize}
+
+Day 4: One discouraged worker starts looking for a job, but there are no
+available positions.
+
+\begin{itemize}
+\tightlist
+\item
+  4 UE, 1 Discouraged, 5 EM
+\item
+  ER: 55.56\%, UR: 44.44\%, LFPR: 90\%
+\item
+  ER: Decreases, UR: Increases, LFPR: Increases
+\end{itemize}
+
+Day 5: Another discouraged worker finds a new job and starts working
+immediately.
+
+\begin{itemize}
+\tightlist
+\item
+  4 UE, 0 Discouraged, 6 EM
+\item
+  ER: 60\%, UR: 40\%, LFPR: 100\%
+\item
+  ER: Increases, UR: Decreases, LFPR: Increases
+\end{itemize}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1778}}
+  >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1222}}
+  >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1444}}
+  >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1444}}
+  >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1222}}
+  >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1444}}
+  >{\centering\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1444}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+EM --\textgreater{} UE
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+EM --\textgreater{} OoLF
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+UE --\textgreater{} OoLF
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+UE --\textgreater{} EM
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+OoLF --\textgreater{} EM
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+OoLF --\textgreater{} UE
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Change in LF & NC & Dec & Dec & NC & Inc & Inc \\
+Change in LFPR & NC & Dec & Dec & NC & Inc & Inc \\
+Change in UER & Inc & Inc & Dec & Dec & Dec & Inc \\
+\end{longtable}
 
 
 

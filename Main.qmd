@@ -612,3 +612,117 @@ For the base year, the RGDP always equals the NGDP.
 - It doesn't account for non-market production (e.g. stay-at-home parents)
 - It doesn't account for the underground economy (e.g. drug dealers)
 - It doesn't account for negative externalities (e.g. pollution)
+
+# Unemployment (01/29)
+
+## Questions on introductory unemployment terms
+1. Who constitutes as being employed?
+
+If they worked full or part time during the past week or is on vacation or sick leave from a regular job.
+
+2. Who constitutes as being unemployed?
+
+If they did not work during the preceding week but made some effort to find work in the past four weeks.
+
+3. Who constitutes as being out of the labor force?
+
+People who are not employed and haven't looked for a job in four weeks. Institutionalized (prison), military, and those younger than 16 as well. Discouraged workers, full time students, unpaid homemakers, and retirees are examples.
+
+4. Who constitutes a discouraged worker? Do they cause an underestimate or overestimate of the unemployment rate?
+
+Workers tha thave given up looking ofr a job, now considered out of the labor force.
+
+5. Is the entire population considered for unemployment calculations?
+
+Only adults (16+), non-institutionalized, civilian, nonretired population.
+
+## Types of unemployment
+
+**Frictional unemployment**
+
+- Unemployment that is initiated by workers themselves, who are in between jobs.
+- "You quit your job and are looking for a new one"
+
+**Structural unemployment**
+
+- When the firm doesn't need the worker anymore
+- "Your skills are no longer needed"
+- This could indicate a displacement of workers by technology
+
+**Cyclical unemployment**
+
+- Unemployment that is caused by a recession
+- "Your skills are still needed, but the economy is not doing well"
+
+## Unemployment calculations
+
+1. Total Population:
+
+18+9+2+1 = 30
+
+2. Total Adult Working-Age Population
+
+18+9+2 = 29
+
+3. Total Employed
+
+18
+
+4. Total Unemployed
+
+9
+
+5. Total Labor Force:
+
+$EM+UE = 18+9=27$
+
+Finding the three important rates
+
+Note: $ER + UR = 100\%$
+
+1. Labor Force Participation Rate (LFPR):
+
+$\frac{LF}{TAWAP} \cdot 100\% = \frac{27}{29} \cdot 100\% = 93.1\%$
+
+2. Employment Rate (ER)
+
+$\frac{EM}{LF} = \frac{EM}{EM+UE} \cdot 100\% = \frac{18}{27} \cdot 100\% = 66.7\%$
+
+3. Unemployment Rate (UR)
+
+$\frac{UE}{LF} = \frac{UE}{(EM+UE)} = \frac{9}{27} = 33.3\%$ 
+
+## The Flow Problem
+Day 1: Country of Burbonia has 10 citizens. All citizens are of the working-age population. 3 are UE. 1 is Discouraged. 6 are EM.
+
+ER: 67.66\%, UR: 33.33\%, LFPR: 90\%
+
+Day 2: One worker loses  their job to the machine, but they continue to look for employment.
+
+- 4 UE, 1 Discouraged, 5 EM
+- ER: 55.56\%, UR: 44.44\%, LFPR: 90\%
+- ER: Decreases, UR: Increases, LFPR: Stays the same
+
+Day 3: One unemployed laborer becomes discouraged.
+
+- 3 UE, 2 Discouraged, 5 EM
+- ER: 62.5\%, UR: 37.5\%, LFPR: 80\%
+- ER: Increases, UR: Decreases, LFPR: Decreases
+
+Day 4: One discouraged worker starts looking for a job, but there are no available positions.
+
+- 4 UE, 1 Discouraged, 5 EM
+- ER: 55.56\%, UR: 44.44\%, LFPR: 90\%
+- ER: Decreases, UR: Increases, LFPR: Increases
+
+Day 5: Another discouraged worker finds a new job and starts working immediately.
+
+- 4 UE, 0 Discouraged, 6 EM
+- ER: 60\%, UR: 40\%, LFPR: 100\%
+- ER: Increases, UR: Decreases, LFPR: Increases
+
+|                | EM --> UE | EM --> OoLF | UE --> OoLF | UE --> EM | OoLF --> EM | OoLF --> UE |
+|:--------------:|:---------:|:-----------:|:-----------:|:---------:|:-----------:|:-----------:|
+| Change in LF   | NC        | Dec         | Dec         | NC        | Inc         | Inc         |
+| Change in LFPR | NC        | Dec         | Dec         | NC        | Inc         | Inc         |
+| Change in UER  | Inc       | Inc         | Dec         | Dec       | Dec         | Inc         |
