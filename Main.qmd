@@ -823,3 +823,30 @@ $\text{Inflation Rate} = \frac{\text{CPI}_{\text{c}} - \text{CPI}_{\text{b}}}{\t
 
 ## Main Idea: What is the difference between the CPI and the GDP deflator?
 The **CPI** inflator is for *consumers*, while the **GDP** deflator is for *producers*.
+
+## The Business Cycle
+
+![The Business Cycle](img/business-cycle.png){width=100%}
+
+## Who Is Hurt/Benefits from (Unanticipated) Inflation?
+Technically, normal inflation is fine. That's because normal inflation is expected and accounted for in the market.
+
+### How to know who is hurt/helped by inflation
+If $\text{Actual } π < \text{Expected } \pi$:
+
+- **Borrowers/Debtors** are hurt because they have to pay back a higher interest
+- **Savers/Lenders/Creditors** are helped because they receive more than the actual interest
+
+If $\text{Actual } π > \text{Expected } \pi$:
+
+- Vice-versa
+
+Calculating the change in real wage:
+
+$\% \Delta \text{Real Wage} = \% \Delta \text{Nominal Wage} - \Sigma \pi$
+
+
+### Who is hurt by inflation?
+
+
+### Who benefits from inflation?
