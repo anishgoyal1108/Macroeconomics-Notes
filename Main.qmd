@@ -317,7 +317,7 @@ GDP is known as tam easure of *national income accounting*. What are the two acc
 {{< pagebreak >}}
 
 ## Circular Flow Model and Leakages
-![Circular Flow Model](img/circular-flow.png){width=75%}
+![Circular Flow Model](img/circular-flow.jpg){width=75%}
 
 - **Leakages** are the non-consumption uses of income, such as savings, taxes, and imports.
 - Your piggy bank and transfer payments are leakages.
@@ -873,4 +873,4 @@ There are three main theories to explain inflation:
   - Workers demand higher wages to keep up with inflation, which causes firms to raise prices, which causes workers to demand higher wages, and so on
 - Can also be caused by an overall decrease in the supply of resources because of a natural disaster or war
 
-{{< pagebreak >}}
+{{< pagebreak >}} 
