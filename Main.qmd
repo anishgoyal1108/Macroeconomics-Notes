@@ -749,7 +749,7 @@ Day 5: Another discouraged worker finds a new job and starts working immediately
 | 10      | 90          | 10          | 20      | 80          | 20           | 30     | 70         |
 +---------+-------------+-------------+---------+-------------+--------------+--------+------------+
 
-### Questions
+### Questions (I didn't finish these but I'll come back to them later)
 1. What do the beans held by each person represent?
 
 Money
@@ -760,37 +760,39 @@ All of the money in the economy
 
 3. What do you notice about the quantities across the 3 different rounds of the auction?
 
-a
+Placeholder answer
 
 4. What do you notice about the prices across the 3 different rounds of the action?
 
-a
+Placeholder answer
 
 5. With respect to your observations in #4, why did this happen?
 
-a
+Placeholder answer
 
 6. Does this simulation demonstrate price stability or price instability?
 
-a
+Placeholder answer
 
 7. Who was hurt the most across the 3 rounds? The least?
 
-a
+Placeholder answer
 
 8. Did the quality of the goods change across the rounds of gameplay? Was this in line with the tendency of prices?
 
-a
+Placeholder answer
 
 9. Did quantity or price appear to have the greater percentage of change across the rounds?
 
-a
+Placeholder answer
 
 10. Does the total spending across the 3 rounds reflect the change in production or consumption? What econmic measures are used to reflect this phenomenon?
 
-a
+Placeholder answer
 
 11. Under what conditions did increasing the money supply (beans) cause inflation? Under what conditions did increasing the money supply (beans) not cause inflation?
+
+Placeholder answer
 
 ## CPI
 The **CPI** (consumer price index) is a measure of the average change over time in the prices paid by urban consumers for a market basket of consumer goods and services. 
@@ -804,15 +806,15 @@ The **CPI** (consumer price index) is a measure of the average change over time 
   - Recreation
   - Education and communication
   - Other goods and services
-- It does not include life insurance, social security, or income taxes.
-- The core CPI is the CPI minus food and energy prices.
+- It **does not include** life insurance, social security, or income taxes.
+- The core CPI is the CPI excluding food and energy prices.
 
 ## Calculating CPI
 The formula for calculating the CPI is:
 
-$CPI = \frac{\Sigma (P_c \cdot Q_b)}{\Sigma (P_{c,\text{base}} \cdot Q_b)} \cdot 100$
+$CPI = \frac{\Sigma (P_c \cdot Q_b)}{\Sigma (P_b \cdot Q_b)} \cdot 100\%$
 
-Where $P_c$ is the current price, $P_{c,\text{base}}$ is the base year price, and $Q_b$ is the quantity of the good/service. 
+Where $P_c$ is the current price, $P_b$ is the base year price, and $Q_b$ is the quantity of the good/service. 
 
 In other words, the CPI is the **ratio** of the cost of the market basket in the current year to the cost of the market basket in the base year times 100\%.
 
@@ -824,29 +826,48 @@ $\text{Inflation Rate} = \frac{\text{CPI}_{\text{c}} - \text{CPI}_{\text{b}}}{\t
 ## Main Idea: What is the difference between the CPI and the GDP deflator?
 The **CPI** inflator is for *consumers*, while the **GDP** deflator is for *producers*.
 
-## The Business Cycle
+# The Business Cycle (02/02)
 
 ![The Business Cycle](img/business-cycle.png){width=100%}
 
-## Who Is Hurt/Benefits from (Unanticipated) Inflation?
+# Who Is Hurt/Benefits from (Unanticipated) Inflation?
 Technically, normal inflation is fine. That's because normal inflation is expected and accounted for in the market.
 
-### How to know who is hurt/helped by inflation
-If $\text{Actual } π < \text{Expected } \pi$:
+## How to know who is hurt/helped by inflation ($\pi$)
+### If $\text{Actual } π > \text{Expected } \pi$:
+- **Creditors/Lenders** are *hurt* because they loan money at a **fixed rate** based on the expected interest rate and will therefore receive less than if they based it off of the actual interest rate
+- **Savers** are *hurt* because their savings have less purchasing power
+- **Consumers with fixed incomes** are *hurt* because they can only buy less with their fixed income 
+- **Borrowers/Debtors** are *helped* because they pay back their loans with money that has less purchasing power than when they borrowed it
+- **Firms with small resource costs** are *helped* because product prices are rising faster than the costs of production, increasing their total revenue
 
-- **Borrowers/Debtors** are hurt because they have to pay back a higher interest
-- **Savers/Lenders/Creditors** are helped because they receive more than the actual interest
+### If $\text{Actual } \pi > \text{Expected } \pi$
+Flip the above statements.
 
-If $\text{Actual } π > \text{Expected } \pi$:
+### Groups unaffected by inflation
+- Workers that have a **cost-of-living adjustment** (COLA) in their contracts (typically union workers)
+  - **Social Security** *does* have a COLA, but it's fairly minimal and not always enough to keep up with inflation.
+- Pretty much anything else with an **adjustable rate**
 
-- Vice-versa
+## How to Calculate Real Income from Inflation:
+- $\text{Real Income} = \frac{\text{Nominal Income}}{\text{CPI}}\cdot 100$
+- $\% \Delta \text{Real Wage} = \% \Delta \text{Nominal Wage} - \% \Delta \text{CPI}$
 
-Calculating the change in real wage:
+## Why does inflation happen?
+There are three main theories to explain inflation:
 
-$\% \Delta \text{Real Wage} = \% \Delta \text{Nominal Wage} - \Sigma \pi$
+### Quantity Theory
+- An increase in the supply of money drives prices up
+- This causes the value of currency to decrease and prices to rise by the same magnitude
+  - For example, if the value of the dollar decreases by 50%, prices will double to compensate, yielding 100% inflation
+- This theory can easily lead to hyperinflation ($\pi \ge 200\%$ in < 1 yr.) if the money supply is increased too much
 
+### Demand-Pull Theory
+- A spike in consumerism causes an increase in demand for goods and services, which causes prices to rise
+- Very common around the holiday season or Black Friday
 
-### Who is hurt by inflation?
-
-
-### Who benefits from inflation?
+### Cost-Push Theory
+- Increased resource costs in the factor market causes firms to scale back production and raise prices
+- The **wage-price spiral** is a common example of cost-push inflation
+  - Workers demand higher wages to keep up with inflation, which causes firms to raise prices, which causes workers to demand higher wages, and so on
+- Can also be caused by an overall decrease in the supply of resources because of a natural disaster or war
