@@ -59,36 +59,38 @@ include-before-body:
 +--------------------+-------------------------------------------------------------+--------------------------------------+
 |                    | **Non-rivalrous**                                           | **Rivalrous**                        |
 +====================+:============================================================+:=====================================+
-| **Non-excludable** |                       *Public Goods*\                       |   *Common-Pool/Common Resources*\    |
-|                    |               (e.g. Sunset, Common Knowledge)               | (e.g. Irrigation Systems, Libraries) |
+| **Non-excludable** | *Public Goods*\                                             |   *Common-Pool/Common Resources*\    |
+|                    | (e.g. Sunset, Common Knowledge)                             | (e.g. Irrigation Systems, Libraries) |
 +====================+=============================================================+======================================+
 | **Excludable**     | *(Toll/Club/Artificially Scarce) Goods/Natural monopolies*\ | *Private Goods*\                     |
 |                    | (e.g. Day-Care Centers, Country Clubs)                      | (e.g. Donuts, Personal Computers)    |
 +--------------------+-------------------------------------------------------------+--------------------------------------+
 
+{{< pagebreak >}}
+
 ## Examples
-                  Case Scenario                   | Type of Good/Service
-------------------------------------------------- | --------------------
-A college education                               | Artificially scarce
-A manicure or pedicure                            | Private good
-Stone Mountain park                               | Artificially scarce
-State park campgrounds                            | Artificially scarce
-National defense                                  | Public good
-Peach Pass lane on I-85                           | Artificially scarce
-Fish in the ocean                                 | Common resource
-Street lights                                     | Public good
-Netflix/Hulu                                      | Artificially scarce
-Flu shot                                          | Private good
-Tornado safety shelter                            | Public good
-Bottled water in a tornado safety shelter         | Common resource
-Hearing a tornado siren                           | Public good
-Going to an almost empty public beach             | Public good
-Going to an overcrowded public beach              | Common resource
-St. Lawrence SeaWay                               | Natural monopoly
-Flying on a commercial airplane                   | Natural monopoly
-Flying a single seat private airplane             | Private good
-Wedding guests eating a slice of the wedding-cake | Common resource
-Cake sold at a bakery                             | Private good
+|                   Case Scenario                   | Type of Good/Service |
+| ------------------------------------------------- | -------------------- |
+| A college education                               | Artificially scarce  |
+| A manicure or pedicure                            | Private good         |
+| Stone Mountain park                               | Artificially scarce  |
+| State park campgrounds                            | Artificially scarce  |
+| National defense                                  | Public good          |
+| Peach Pass lane on I-85                           | Artificially scarce  |
+| Fish in the ocean                                 | Common resource      |
+| Street lights                                     | Public good          |
+| Netflix/Hulu                                      | Artificially scarce  |
+| Flu shot                                          | Private good         |
+| Tornado safety shelter                            | Public good          |
+| Bottled water in a tornado safety shelter         | Common resource      |
+| Hearing a tornado siren                           | Public good          |
+| Going to an almost empty public beach             | Public good          |
+| Going to an overcrowded public beach              | Common resource      |
+| St. Lawrence SeaWay                               | Natural monopoly     |
+| Flying on a commercial airplane                   | Natural monopoly     |
+| Flying a single seat private airplane             | Private good         |
+| Wedding guests eating a slice of the wedding-cake | Common resource      |
+| Cake sold at a bakery                             | Private good         |
 
 {{< pagebreak >}}
 
@@ -263,9 +265,9 @@ G &= 1-2B
 
 {{< pagebreak >}}
 
-## Negative Externalities: Public vs. Private Resolution and More on the Coase Theorem (01/16)
+# Negative Externalities: Public vs. Private Resolution and More on the Coase Theorem (01/16)
 
-### Conditions
+## Conditions
 Recall that the **Coase Theorem** states market failures will always be resolved by the free market. Here are all the conditions for Coase Theorem to hold true:
 
 - Both sides are rational and willing to negotiate to maximize their own utility.
@@ -273,7 +275,7 @@ Recall that the **Coase Theorem** states market failures will always be resolved
 - Private property rights are well-defined
 - Perfect information is available to both sides and they have the same leverage
 
-### Miscellaneous Market Failures
+## Miscellaneous Market Failures
 There are a couple of other market failures that the government should try to combat, based on the types of markets we learned about *in previous units*:
 
 - **Monopoly**: A single firm controls the entire market.
@@ -281,9 +283,10 @@ There are a couple of other market failures that the government should try to co
 - **Monopsony**: A single firm controls the entire labor market.
   - This will cause the firm to hire *less* than optimum and for a *lower wage*.
 
-# Intro to Macronomic Indicators (01/22-01/23)
+{{< pagebreak >}}
 
-GDP stands for Gross Domestic Product. These three words are important to understand:
+# Intro to Macronomic Indicators (01/22-01/23)
+GDP stands for **Gross Domestic Product.** Those three words are important to understand:
 
 - Gross: Not just profits - *total* value
 - Domestic: Made WITHIN the borders of the US 
@@ -291,8 +294,6 @@ GDP stands for Gross Domestic Product. These three words are important to unders
 
 Formal definition of GDP: \ 
 **GDP** is: the sum of the market value of all final goods and services produced within the United States in a given time period (usually a year).
-
-{{< pagebreak >}}
 
 |   Concept    |                         Is                          |                   Is NOT                   |
 | ------------ | --------------------------------------------------- | ------------------------------------------ |
@@ -326,55 +327,55 @@ GDP is known as tam easure of *national income accounting*. What are the two acc
 
 ## Examples of Factors that Affect GDP
 ### Which of these is Counted in GDP?
-- A monthly check received by an economics student who has been granted a government scholarship.
-- A farmer's purchase of a new tractor $\checkmark$
+- A monthly check received by an economics student who has been granted a government scholarship $\times$
+- **A farmer's purchase of a new tractor**
 - A plumber's purchase of a two-year-old used truck $\times$
 - Cashing a U.S. government bond $\times$
-- The services of a mechanic in fixing the radiator in his own car
-- A Social Security check from the government to a retired store clerk
-- An increase in business inventories $\checkmark$
-- The government's purchase of a new submarine for the Navy $\checkmark$
-- A barber's income from cutting hair $\checkmark$
+- The services of a mechanic in fixing the radiator in his own car $\times$
+- A Social Security check from the government to a retired store clerk $\times$
+- **An increase in business inventories**
+- **The government's purchase of a new submarine for the Navy**
+- **A barber's income from cutting hair**
 - Income received from the sale of Nike Stock $\times$
 
 ### Which of these is counted in GDP and part of consumption?
-- You Spend $7 at the movies $\checkmark$
+- **You Spend $7 at the movies**
 - A family pays a contractor $200k for a house he built them this year $\times$
 - A family pays $75k for a house built three years ago $\times$
-- An accountant pays a tailor $175 to sew a suit for her $\checkmark$
+- **An accountant pays a tailor $175 to sew a suit for her**
 - The government increases its defense expenditures by $1 billion $\times$
 - The government makes a $300 Social Security payment to a retired person $\times$
 - You buy General Motors Corp. stock for $1k in the stock market $\times$
 - At the end of the year, a flour-milling firm finds that its inventories of grain and flour are $10k above the amounts of its inventories at the beginning of the year $\times$
 - A homemaker works hard caring for her spouse and two children $\times$
 - Ford Motor Co. buys new auto-making robots $\times$
-- You pay \$300 a month to rent an apartment $\checkmark$
+- **You pay \$300 a month to rent an apartment**
 - Apple Computers builds a new factory in the US $\times$
 - RJ Reynolds Co. buys control of Nabisco $\times$
-- You buy a new Toyota that was made in Japan. $\times$
-- You pay tuition to attend college. $\checkmark$
+- You buy a new Toyota that was made in Japan $\times$
+- **You pay tuition to attend college**
 
 ### Which of these is Counted in GDP and part of investment?
-- A family pays a contractor $200k for a house he built them this year $\checkmark$
+- **A family pays a contractor $200k for a house he built them this year**
 - A family pays $75k for a house built three years ago $\times$
 - The government increases its defense expenditures by $1 billion $\times$
 - The government makes a $300 Social Security payment to a retired person $\times$
 - You buy General Motors Corp. stock for $1k in the stock market $\times$
-- At the end of the year, a flour-milling firm finds that its inventories of grain and flour are $10k above the amounts of its inventories at the beginning of the year $\checkmark$
+- **At the end of the year, a flour-milling firm finds that its inventories of grain and flour are $10k above the amounts of its inventories at the beginning of the year**
 - A homemaker works hard caring for her spouse and two children $\times$
 - Ford Motor Co. buys new auto-making robots $\checkmark$ $\times$
-- Apple Computers builds a new factory in the US $\checkmark$
+- **Apple Computers builds a new factory in the US**
 - RJ Reynolds Co. buys control of Nabisco $\times$
-- You buy a new Toyota that was made in Japan. $\times$
+- You buy a new Toyota that was made in Japan $\times$
 
 ### Which of these is Counted in GDP and part of government spending?
 - A family pays $75k for a house built three years ago $\times$
-- The government increases its defense expenditures by $1 billion $\checkmark$
+- **The government increases its defense expenditures by $1 billion**
 - The government makes a $300 Social Security payment to a retired person $\times$
 - You buy General Motors Corp. stock for $1k in the stock market $\times$
 - A homemaker works hard caring for her spouse and two children $\times$
 - RJ Reynolds Co. buys control of Nabisco $\times$
-- You buy a new Toyota that was made in Japan. $\times$
+- You buy a new Toyota that was made in Japan $\times$
 
 ### Which of these is Counted in GDP and part of net export/import?
 - A family pays $75k for a house built three years ago $\times$
@@ -382,7 +383,7 @@ GDP is known as tam easure of *national income accounting*. What are the two acc
 - You buy General Motors Corp. stock for $1k in the stock market $\times$
 - A homemaker works hard caring for her spouse and two children $\times$
 - RJ Reynolds Co. buys control of Nabisco $\times$
-- You buy a new Toyota that was made in Japan. $\checkmark$
+- **You buy a new Toyota that was made in Japan**
 
 ### We count only the final price of a good or service in GDP. Why?
 We don't count intermediate and used goods/services because then we would be **double-counting**; also, the good/service in question might have not been made in the time period analyzed if it wasn't final.
@@ -393,7 +394,7 @@ Because a purely financial transaction doesn't involve consumption, investment, 
 ### When a home-owner does home-improvement work, the labor is not counted in GDP. Why?
 They're not paying themself or making any profits off of their work to contribute to the income approach for calculating GDP.
 
-## Calculating GDP Examples
+## Calculating GDP Examples (I didn't finish this)
 
 ### Example 1
 Suppose that personal income is \$500 billion, personal taxes are \$100 billion, and depreciation is \$50 billion. Disposable income is equal to which of the following?
@@ -830,8 +831,8 @@ The **CPI** inflator is for *consumers*, while the **GDP** deflator is for *prod
 
 ![The Business Cycle](img/business-cycle.png){width=100%}
 
-# Who Is Hurt/Benefits from (Unanticipated) Inflation?
-Technically, normal inflation is fine. That's because normal inflation is expected and accounted for in the market.
+# Who Is Hurt/Benefits from (Unanticipated) Inflation? (02/05)
+Technically, normal inflation is fine. That's because normal inflation is expected and accounted for in the market. Unanticipated inflation is the problem.
 
 ## How to know who is hurt/helped by inflation ($\pi$)
 ### If $\text{Actual } π > \text{Expected } \pi$:
@@ -871,3 +872,5 @@ There are three main theories to explain inflation:
 - The **wage-price spiral** is a common example of cost-push inflation
   - Workers demand higher wages to keep up with inflation, which causes firms to raise prices, which causes workers to demand higher wages, and so on
 - Can also be caused by an overall decrease in the supply of resources because of a natural disaster or war
+
+{{< pagebreak >}}
