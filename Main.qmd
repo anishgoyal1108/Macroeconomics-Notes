@@ -873,4 +873,45 @@ There are three main theories to explain inflation:
   - Workers demand higher wages to keep up with inflation, which causes firms to raise prices, which causes workers to demand higher wages, and so on
 - Can also be caused by an overall decrease in the supply of resources because of a natural disaster or war
 
+## Costs of Inflation
+- Menu costs result from a firm having to change prices.
+- Shoe leather costs refer to the time and effort that people spend to counteract the effects of inflation.
+
 {{< pagebreak >}} 
+
+# Introduction to Aggregate Demand/Supply (02/12)
+
+## The Aggregate Models (Graphs)
+![](img/agg-models.png)
+
++-------------------------------------------------+----------------------------------------------------+
+|         Supply and Demand Model (Graph)         |     Aggregate Supply and Demand Model (Graph)      |
++=================================================+====================================================+
+| **What are the two laws?** \                    | **What does the term "aggregate" mean?** \         |
+| Law of Supply and Law of Demand                 | Sum                                                |
++-------------------------------------------------+----------------------------------------------------+
+| ![](img/supply-demand.png){width=50%}           | ![](img/agg-model.png){width=50%}                  |
++-------------------------------------------------+----------------------------------------------------+
+| **What/Who does the demand curve represent?** \ | **What/Who does the AD curve represent?** \        |
+| Inverse relationship between $P$ and $Q_d$      | Aggregate Expenditure = Aggregate Income \         |
+|                                                 | $C+I+G+N_x$ = $W+R+I+P$                            |
++-------------------------------------------------+----------------------------------------------------+
+| **What/Who does the supply curve represent?** \ | **What/Who does the AS curve represent?** \        |
+| Direct relation between $P$ and $Q_s$           | Aggregate production                               |
++-------------------------------------------------+----------------------------------------------------+
+| **Reason for Change in Quantity Demanded** \    | **Reasons for Change in Quantity of AD** \         |
+| Price ONLY!                                     | Price level only                                   |
++-------------------------------------------------+----------------------------------------------------+
+| **Reason for Change in Demand** \               | **Reasons for Change of AD** \                     |
+| BITER                                           | $C+I+G+N_x = W+R+I+P$                              |
++-------------------------------------------------+----------------------------------------------------+
+| **Reason for Change in Quantity Supplied** \    | **Reasons for Change in Quantity of AS** \         |
+| Price ONLY!                                     | Price level ONLY!                                  |
++-------------------------------------------------+----------------------------------------------------+
+| **Reason for Change in Supply** \               | **Reasons for Change in AS** \                     |
+| TONERS                                          | IRAP: \                                            |
+|                                                 | Inflationary Expectations \                        |
+|                                                 | Resource Cost and Availability \                   |
+|                                                 | Acts of Mother Nature and Government Regulations \ |
+|                                                 | Productivity                                       |
++-------------------------------------------------+----------------------------------------------------+
