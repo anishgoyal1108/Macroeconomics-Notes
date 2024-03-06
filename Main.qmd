@@ -915,3 +915,281 @@ There are three main theories to explain inflation:
 |                                                 | Acts of Mother Nature and Government Regulations \ |
 |                                                 | Productivity                                       |
 +-------------------------------------------------+----------------------------------------------------+
+
+## Why is aggregate demand downward sloping?
+All of these effects demonstrate that $PL \propto \frac{1}{Q_d}$: \ 
+- **Real Wealth Effect**: $PL$ decreases, purchasing power increases, consumption increases
+- **Interest Rate Effect**: $PL$ decreases, interest rate decreases, investment increases
+- **Exchange Rate Effect**: $PL$ relative to another country decreases, exports increase, RGDP increases
+
+## Why is short run aggregate supply upward sloping?
+All of these effects demonstrate that $PL \propto Q_s$: \
+- **Sticky Wage Theory (wage rigidity)**: Wages adjust slowly to $PL$, so when $PL$ increases, the real wage falls and employment increases
+- **Sticky Price Theory (price rigidity)**: $PL$ adjusts slowly to economic changes, and businesses don't want to incur menu costs often, so they increase production instead
+- **Misperception Theory**: For a single firm, $PL$ decreasing increases buyer consumption, so they increase production; however, for the economy as a whole, this is not the case and they should have increased prices instead
+
+### Real Wealth Sequence
+PL
+
+# Shifters in AD/AS (02/13)
+## AD/AS You Decide
++---------------------------------------------+-------------------------------------------------+---------------+--------------+
+|                Case Scenario                | Draw a correctly labeled graph indicating the \ | Increase or \ | Which Gap or |
+|                                             |               change in AD or AS                | Decrease of \ |  Economic \  |
+|                                             |                                                 |  PL and RGDP  |   Growth?    |
++=============================================+=================================================+===============+==============+
+| Tar sand/Oil sand in Canada and \           |                                                 | PL Inc. \     |              |
+| Nebraska allows the US to gain energy \     |                                                 | RGDP Inc.     |              |
+| independence from the Middle East           |                                                 |               |              |
++---------------------------------------------+-------------------------------------------------+---------------+--------------+
+| More seniors eat waffles topped with \      |                                                 | PL Inc. \     |              |
+| whip cream at their senior breakfasts all \ |                                                 | RGDP Inc.     |              |
+| pver the US                                 |                                                 |               |              |
++---------------------------------------------+-------------------------------------------------+---------------+--------------+
+| A squirrel invasion destroys the harvest \  |                                                 | PL Inc. \     |              |
+| of Walnuts in California                    |                                                 | RGDP Inc.     |              |
++---------------------------------------------+-------------------------------------------------+---------------+--------------+
+| CIA spends a greater portion of its \       |                                                 | PL Inc. \     |              |
+| budget on drone strikes                     |                                                 | RGDP Inc.     |              |
++---------------------------------------------+-------------------------------------------------+---------------+--------------+
+| More seniors eat waffles topped with \      |                                                 | PL Inc. \     |              |
+| whip cream at their senior breakfasts all \ |                                                 | RGDP Inc.     |              |
+| pver the US                                 |                                                 |               |              |
++---------------------------------------------+-------------------------------------------------+---------------+--------------+
+
+## AD vs AS Shifters
++-----------------------------------+---------------+-----------------------------------+----------+
+|             Scenario              |    Shifter    |               Graph               |          |
++===================================+===============+===================================+==========+
+| Congress passes a tax increase    | Taxes         | ![](img/agg-model.png){width=50%} | AD Left  |
+|                                   |               | Price Dec.                        |          |
+|                                   |               | RGDP Dec.                         |          |
++-----------------------------------+---------------+-----------------------------------+----------+
+| The Government is increasing \    | Government \  | ![](img/agg-model.png){width=50%} | AD Right |
+| its spending on infrastructure    | Spending      | Price Inc                         |          |
+|                                   |               | RGDP Inc                          |          |
++-----------------------------------+---------------+-----------------------------------+----------+
+| Microchip shortages are hitting \ | Supply \      | ![](img/agg-model.png){width=50%} | AS Left  |
+| the car industry                  | Shortage      | Price Inc.                        |          |
+|                                   |               | RGDP Dec.                         |          |
++-----------------------------------+---------------+-----------------------------------+----------+
+| Producers believe that future \   | Expectations  | ![](img/agg-model.png){width=50%} | AS Right |
+| prices are expected to rise       |               | Price Inc.                        |          |
+|                                   |               | RGDP Dec.                         |          |
++-----------------------------------+---------------+-----------------------------------+----------+
+| The cost of plastic for toy \     | Costs of \    | ![](img/agg-model.png){width=50%} | AS Left  |
+| manufacturers has fallen          | Production    | Price Dec.                        |          |
+|                                   |               | RGDP Inc.                         |          |
++-----------------------------------+---------------+-----------------------------------+----------+
+| Consumers are worried about  \    | Expectations  | ![](img/agg-model.png){width=50%} | AD Left  |
+| the future of the US economy      |               | Price Inc                         |          |
+|                                   |               | RGDP Inc                          |          |
++-----------------------------------+---------------+-----------------------------------+----------+
+| New regulations make less \       | Acts of the \ | ![](img/agg-model.png){width=50%} | AS Left  |
+| forest available for timber mills | Government    | Price Inc.                        |          |
+|                                   |               | RGDP Dec.                         |          |
++-----------------------------------+---------------+-----------------------------------+----------+
+| Firms increase their spending \   | Investment    | ![](img/agg-model.png){width=50%} | AD Right |
+| on education for employees        |               | Price Inc.                        |          |
+|                                   |               | RGDP Inc.                         |          |
++-----------------------------------+---------------+-----------------------------------+----------+
+
+## PPF vs LRAS model
++---------------------------------------------------------+--------------------------------------------------+
+|             Production Possibility Frontier             |         Long-Run Aggregate Supply Model          |
++=========================================================+==================================================+
+| **What does the term "production possibility" mean?** \ | **What does the term "potential" mean?** \       |
+| The ideal production for a given resource.              | a                                                |
++---------------------------------------------------------+--------------------------------------------------+
+| ![](img/agg-model.png){width=50%}                       | ![](img/agg-model.png){width=50%}                |
++---------------------------------------------------------+--------------------------------------------------+
+| **What/Who does the PPF represent?** \                  | **What/Who does the LRAS curve represent?** \    |
+| a                                                       | All producers in LR                              |
++---------------------------------------------------------+--------------------------------------------------+
+| **What does being under the curve represent?** \        | **What does beign below the curve represent?** \ |
+| Inefficient                                             | Below full employment (negative output gap)      |
++---------------------------------------------------------+--------------------------------------------------+
+| **What does being on the curve represent?** \           | **What does being at the curve represent?** \    |
+| Efficient                                               | Zero output at AD                                |
++---------------------------------------------------------+--------------------------------------------------+
+| **What does being above the curve represent?** \        | **What does being above the curve represent?** \ |
+| Unattainable in the long run                            | Above full employment (positive output gap)      |
++---------------------------------------------------------+--------------------------------------------------+
+| **What are the shifters?** \                            | **What are the shifters?** \                     |
+| 1. Tech \                                               | 1. Tech                                          |
+| 2. Resources \                                          | 2. Resources/Capital stock \                     |
+| 3. Productivity                                         | 3. Productivity                                  |
++---------------------------------------------------------+--------------------------------------------------+
+
+## The four aggregate positions
+
++----------------------------------------------------+----------------------------------------------------+
+|               **Inflationary Gap** \               |               **Recessionary Gap**\                |
+|          Type of inflation: Demand-Pull \          |                                                    |
+| $RGDP_{\text{actual}} > RGDP_{\text{potential}}$ \ | $RGDP_{\text{actual}} < RGDP_{\text{potential}}$ \ |
+|               Effect on UE: Decrease               |               Effect on UE: Increase               |
++====================================================+====================================================+
+| Graph \                                            | Graph \                                            |
+| ![](img/agg-model.png){width=50%}                               | ![](img/agg-model.png){width=50%}                               |
++----------------------------------------------------+----------------------------------------------------+
+| **Period of SR Economic Growth** \                 | **Period of Stagflation** \                        |
+|                                                    | Type of inflation: Cost-Push \                     |
+| $RGDP_{\text{actual}} > RGDP_{\text{potential}}$ \ | $RGDP_{\text{actual}} < RGDP_{\text{potential}}$ \ |
+| Effect on UE: Decrease                             | Effect on UE:  Increase                            |
++====================================================+====================================================+
+| Graph \                                            | Graph \                                            |
+| ![](img/agg-model.png){width=50%}                               | ![](img/agg-model.png){width=50%}                               |
++----------------------------------------------------+----------------------------------------------------+
+
+{{< pagebreak >}}
+
+# LR-Adjustments (02/20)
+
+# Propensity and the Multiplier (02/23)
+
+# Fiscal Policy (02/26)
+
++----------------------------------------------+----------------------------------------------------------------------------+
+| Expansionary Fiscal Policy                   | Contractionary Fiscal Policy                                               |
++----------------------------------------------+----------------------------------------------------------------------------+
+| Applied durnig which phase of the business \ | Applied during which phase of the business \                               |
+| cycle: \                                     | cycle: \                                                                   |
+|                                              | $G \downarrow \therefore AD \downarrow$ \                                  |
+|                                              | $T_{\text{bus}} \uparrow \therefore I \downarrow \therefore AD \downarrow$ |
++==============================================+============================================================================+
+| Tools:                                       | Tools:                                                                     |
++----------------------------------------------+----------------------------------------------------------------------------+
+| Effect on AD (Graph):                        | Effect on AD (Graph):                                                      |
++----------------------------------------------+----------------------------------------------------------------------------+
+
+{{< pagebreak >}}
+
+## Government Multipliers
+The federal government gives you \$100.
+
+The economy's MPC = 0.9 and MPS = 0.1.
+
++-------------------------+-----------------+----------------------------------------------------------+
+| Multiplier              | Formula         | Multiplier Effect                                        |
++-------------------------+-----------------+----------------------------------------------------------+
+| Government Spending \   | $\frac{1}{MPS}$ | $\Delta G \cdot \text{Mult} = \Delta \text{Real Output}$ |
+| Multiplier for Fiscal \ |                 |                                                          |
+| Policy                  |                 |                                                          |
++-------------------------+-----------------+----------------------------------------------------------+
+
+From the government's fiscal spending, the total additional spending in our economy is \$1000. What should the government do to close the gap?
+
++------------+------------+-------------------+--------------+---------------------+
+| Propensity | Multiplier | Aggregate Economy | Size of Gap  | Government Spending |
++------------+------------+-------------------+--------------+---------------------+
+| MPS = 0.2  | 5          | Recessionary Gap  | -\$100 \     | Increase \$         |
+|            |            |                   | million      |                     |
++------------+------------+-------------------+--------------+---------------------+
+| MPS = 0.5   | 2          | Inflationary Gap  | \$50 million | Decrease \$         |
++------------+------------+-------------------+--------------+---------------------+
+| MPS = 0.33 | 3          | Stagflation       | -\$200 \     | N/A                 |
+|            |            |                   | million      |                     |
++------------+------------+-------------------+--------------+---------------------+
+
+Now, the federal government reduces taxes by \$100 while allowing the economy to keep what is already has.
+
+The economy's MPC = 0.9 and MPS = 0.1.
+
++-----------------------------+--------------------+----------------------------------------------------------+
+| Multiplier                  | Formula            | Multiplier Effect                                        |
++-----------------------------+--------------------+----------------------------------------------------------+
+| Tax Multiplier for Fiscal \ | $-\frac{MPC}{MPS}$ | $\Delta T \cdot \text{Mult} = \Delta \text{Real Output}$ |
+| Policy                      |                    | $-100 \cdot \frac{-0.9}{-0.1} = \$900$                   |
++-----------------------------+--------------------+----------------------------------------------------------+
+
+The total spending in the economy is \$900. What should the government do to cloes the gap?
+
++------------+------------+-------------------+--------------+---------------------+
+| Propensity | Multiplier | Aggregate Economy | Size of Gap  | Government Spending |
++------------+------------+-------------------+--------------+---------------------+
+| MPS = 0.2  | -4         | Recessionary Gap  | -\$100 \     | Increase \$         |
+|            |            |                   | million      |                     |
++------------+------------+-------------------+--------------+---------------------+
+| MS = 0.5   | -1         | Inflationary Gap  | \$50 million | Decrease \$         |
++------------+------------+-------------------+--------------+---------------------+
+| MPS = 0.33 | -2         | Stagflation       | -\$200 \     | N/A                 |
+|            |            |                   | million      |                     |
++------------+------------+-------------------+--------------+---------------------+
+ 
+ALSO do nothing because the economy is still in Stagflation.
+
+{{< pagebreak >}}
+
+## Balanced Budget Multiplier
+Goals of fiscal policy: 
+
+1. No surplus spending
+2. No deficit spending
+3. No change to our national debt
+
+Therefore...
+
++-------------------------------------+------------------------------------+
+| Spending                            | Taxes                              |
+| Increase by \$100 $\Longrightarrow$ | $\uparrow \$100                    |
+| $\downarrow \$400$                  | $\Longleftarrow$ Decrease by \$400 |
++-------------------------------------+------------------------------------+
+
+{{< pagebreak >}}
+
+# Money and Interest Rates (03/06)
+
+## Notetaker for [this video](https://www.youtube.com/watch?v=9ZJUkSePNLw) on money
+1. Before money, what was used to facilitate exchanges?
+
+**Bartering**
+
+2. Name and describe the 3 functions of money.
+
+- **Medium of Exchange**: Money facilitates exchanges.
+- **Unit of Account**: Money measures the value of items.
+- **Store of Value**: Money can be saved and used later.
+
+3. Define the following types of money:
+
+- **Commodity**
+  - Mediums of exchange with intrinsic value
+- **Representative**
+  - Each bill has a commodity that gives it value
+- **Fiat**
+  - Currency that gets its value from what it will buy
+
+4. What are the measures of money?
+
+- **M0 (Monetary Base):** Currency in bank reserves/circulation
+- **M1 (Money)**: Currency in circulation, checkable deposits, and savings deposits
+- **M2 (Money and Near Money)**: Money not immediately available as a medium of exchange but can be converted to a medium of exchange (M1 + small time deposits and money market mutual funds)
+
+![](img/m0-m1-venn.png){width=70%}
+
+## Refresher on interest rates + Fisher Formula ([video notes](https://www.youtube.com/watch?v=KfPGfP97NBA))
+
+### The variables
+- $i$: Nominal interest rate
+  - Interest banks charge for loans
+  - Not adjusted for inflation
+- $r$ Real interest rate
+  - Inflation-adjusted interest that banks charge
+- $\pi$: Inflation rate
+  - Rate at which prices are rising/falling
+  - Measured by the CPI or GDP deflator
+
+### The Fisher Formula
+$i \approx r + \pi$
+
+This means that banks will charge the real interest they desire plus the expected inflation rate.
+
+### Expected vs. Actual Inflation
+- Actual inflation impacts the real interest rate because $r \approx i - \pi$.
+  - This means that **higher than expected inflation** *helps* borrowers and *hurts* lenders, and vice-versa
+
+### Other applications
+The Fisher Formula can be mirrored for changes in nominal/real wages and GDP:
+
+- GDP changes: $\% \Delta \text{rGDP} \approx \% \Delta \text{nGDP} - \pi$
+- Wage changes: $\% \Delta \text{rW} \approx \% \Delta \text{nW} - \pi$
