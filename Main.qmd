@@ -1193,3 +1193,117 @@ The Fisher Formula can be mirrored for changes in nominal/real wages and GDP:
 
 - GDP changes: $\% \Delta \text{rGDP} \approx \% \Delta \text{nGDP} - \pi$
 - Wage changes: $\% \Delta \text{rW} \approx \% \Delta \text{nW} - \pi$
+
+# Fractional Reserve Banking (03/08)
+
+## The Money Multiplier
+The money multiplier is the amount of money that banks generate with each dollar of reserves.
+
+The formula for the money multiplier is:
+
+$MM = \frac{1}{\text{Reserve Requirement Ratio}}$
+
+If you multiply new money by the money multiplier, you get the total amount of money that banks can create (known as money expansion),
+
+## Money from Nothing Note-taker
+
++-----------------------------+-------------------------------------------------------------------+
+| **Reserves** \              | Total Reserves = Required Reserves + Excess Reserves              |
+| - *Required Reserves* \     | Required Reserve = Amount of demand deposits that cannot be leant |
+| - *Excess Reserves*         | Excess Reserves = Amount of demand deposits that can be leant     |
++-----------------------------+-------------------------------------------------------------------+
+| **Reserve Ratio**           | The fraction of demand deposits that banks must keep on hand      |
++-----------------------------+-------------------------------------------------------------------+
+| **Liability**               | What you owe to someone \                                         |
+| \                           | Banks liabilities are demand deposits \                           |
+| \                           | Borrower's liabilities are the loan they have taken from the bank |
++-----------------------------+-------------------------------------------------------------------+
+| **Asset**                   | What you have...                                                  |
+| \                           | Bank assets are loans or property \                               |
+| \                           | Saver's assets are the deposits in a bank                         |
++-----------------------------+-------------------------------------------------------------------+
+| **Checkable (or Demand)** \ | When you save your money in your checking account \               |
+| **Deposits**                | Liability for the bank, Asset for the saver                       |
++-----------------------------+-------------------------------------------------------------------+
+| **Loans**                   | Borrowers borrow money from the bank \                            |
+| \                           | Loan is a liability for the borrower \                            |
+| \                           | Loan is an asset for the bank                                     |
++-----------------------------+-------------------------------------------------------------------+
+
+1. When a Central Bank changes the reserve requirement, they are acting to change the money supply. How does this happen?
+
+- Required reserves increases $\therefore$ less excess reserves $\therefore$ less expansionary lending $\therefore$ less money supply. 
+
+2. What information does the money multiplier formula give us, and how does it relate to question 1?
+
+- RR
+
+Most bonds pay a fixed interest rate that becomes more attractive if interest rates fall, driving up demand and the price of the bond. Conversely, if interest rates rise, investors will no longer prefer the lower fixed interest rate paid by a bond, resulting in a decline in its price.
+
+# The Money Market (03/11)
+
++---------------------------------------------------------------------+----------------------+----------------------+
+|    To address macroeconomic gaps (recessions and inflationary \     |  **Expansionary** \  | **Contractionary** \ |
+| periods, a central bank can use the following tools to adjust the \ |     **Policy** \     |     **Policy** \     |
+|                            money supply:                            |                      |                      |
++=====================================================================+======================+======================+
+| **Conduct Open Market Operations** \                                | Fed buys bonds \     | Fed sells bonds \    |
+| FED buys and sells bonds! (also known as OMOs)                      |                      |                      |
++---------------------------------------------------------------------+----------------------+----------------------+
+| **Change the Reserve Requirement** \                                | Fed lowers the RR  \ | FED raises the RR  \ |
+| FED changes the reserve requirement, changing the multiplier, and \ |                      |                      |
+| decreasing the money supply                                         |                      |                      |
++---------------------------------------------------------------------+----------------------+----------------------+
+| **Change the Discount Rate** \                                      | FED lowers the DR \  | FED raises the DR \  |
+| Fed changes the interest rate it charges member banks for money     |                      |                      |
++---------------------------------------------------------------------+----------------------+----------------------+
+
+## What's the point?
+
+By changing the $S_M$ they are **targeting** the intra-bank lending rate, called the Fed(eral) Funds Rate.
+
+The use of the policy tools above shifts the $S_M$. So what shifts the $D_M$?
+
+# Monetary Policy
+## Shifters of $S_M$ and $D_M$
+### Shifters of $S_M$:
+- The Federal Reserve and its tools
+  - $\text{Buy Bonds} \uparrow \therefore S_M \uparrow$
+  - $\text{Any form of interest} \uparrow \therefore S_M \downarrow$
+  - $RRR \uparrow \therefore S_M \downarrow$ 
+  
+
+### Shifters of $D_M$:
+- $PL \uparrow \therefore D_M \uparrow$
+- $DI \uparrow \therefore D_M \uparrow$
+- $\text{Transaction Costs} \uparrow \therefore D_M \downarrow $
+- $\text{CC Usage} \uparrow \therefore D_M \uparrow$
+
+## Basic Money Market Graph
+![](img/money-market.png){width=100%}
+
+## More on nominal interest rates
+A nominal interest rate is the **cost** to borrow money. Changes to nominal interest cates have a direct impact on investment spending, which is a shifter of aggregate demand.
+
+The monetary thinking behind this is... 
+
+- $\text{Fed Buys Bonds} \therefore S_M \uparrow \therefore i \downarrow \& Q_M \uparrow \therefore C \& I \uparrow \therefore AD \uparrow \therefore PL \& RGDP \uparrow (\text{stabilizes in LR}) \& UER \downarrow$
+- $\text{Fed Sells Bonds} \therefore S_M \downarrow \therefore i \uparrow \& Q_M \downarrow \therefore C \& I \downarrow \therefore AD \downarrow \therefore PL \& RGDP \downarrow (\text{stabilizes in LR}) \& UER \uparrow$
+
++-----------------------------+-------------------------------------+-----------------------+
+| Expansionary Policy Options | Money Market Graph                  | Aggregate Model Graph |
++-----------------------------+-------------------------------------+-----------------------+
+| Federal Reserve... \        | ![](img/money-market-expansion.png) |                       |
+| Decrease RR \               |                                     |                       |
+| Decreaes DR \               |                                     |                       |
+| Buy Bonds                   |                                     |                       |
++-----------------------------+-------------------------------------+-----------------------+
+
++-------------------------------+---------------------------------------+-----------------------+
+| Contractionary Policy Options | Money Market Graph                    | Aggregate Model Graph |
++-------------------------------+---------------------------------------+-----------------------+
+| Federal Reserve... \          | ![](img/money-market-contraction.png) |                       |
+| Increase RR \                 |                                       |                       |
+| Increase DR \                 |                                       |                       |
+| Sell Bonds                    |                                       |                       |
++-------------------------------+---------------------------------------+-----------------------+
